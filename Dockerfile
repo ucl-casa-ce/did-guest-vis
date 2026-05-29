@@ -8,7 +8,7 @@ LABEL maintainer="djw"
 COPY index.html styles.css app.js data.json geocache.json /usr/share/nginx/html/
 
 # Expose port 80 for web traffic
-EXPOSE 8080
+EXPOSE 80
 
 # Start Nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]
