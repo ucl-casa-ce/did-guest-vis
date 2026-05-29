@@ -124,12 +124,15 @@ def get_birthplace_and_coords(qid, cache):
                     lat = val.get("latitude")
                     lng = val.get("longitude")
                     
-        result = {"bornIn": born_in_name, "bornInLat": lat, "bornInLng": lng}
+        if born_in_name is None or lat is None or lng is None:
+            result = {"bornIn": "Desert Island", "bornInLat": -14.0, "bornInLng": -13.0}
+        else:
+            result = {"bornIn": born_in_name, "bornInLat": lat, "bornInLng": lng}
         cache[qid] = result
         return result
     except Exception as e:
         print(f"  [Wikidata] Birthplace geocoding error for {qid}: {e}")
-    return {"bornIn": None, "bornInLat": None, "bornInLng": None}
+    return {"bornIn": "Desert Island", "bornInLat": -14.0, "bornInLng": -13.0}
 
 # --- BBC Portrait Resolver ---
 
@@ -255,9 +258,9 @@ def main():
         
         # 1. Resolve Wikipedia & Wikidata Coordinates
         wiki_url = None
-        born_in = None
-        lat = None
-        lng = None
+        born_in = "Desert Island"
+        lat = -14.0
+        lng = -13.0
         
         wiki_title = search_wikipedia_title(name)
         if wiki_title:
@@ -265,14 +268,14 @@ def main():
             qid = get_wikidata_qid(wiki_title)
             if qid:
                 loc_data = get_birthplace_and_coords(qid, cache)
-                born_in = loc_data.get("bornIn")
-                lat = loc_data.get("bornInLat")
-                lng = loc_data.get("bornInLng")
+                born_in = loc_data.get("bornIn", "Desert Island")
+                lat = loc_data.get("bornInLat", -14.0)
+                lng = loc_data.get("bornInLng", -13.0)
                 print(f"  -> Coordinates found: {born_in} ({lat}, {lng})")
             else:
-                print("  -> Wikidata QID not found.")
+                print("  -> Wikidata QID not found. Defaulting to Desert Island (-14, -13).")
         else:
-            print("  -> Wikipedia article not found.")
+            print("  -> Wikipedia article not found. Defaulting to Desert Island (-14, -13).")
             
         # 2. Resolve BBC imagePid
         image_pid = fetch_bbc_image_pid(c["episodeUrl"])

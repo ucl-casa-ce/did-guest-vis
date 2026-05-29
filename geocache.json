@@ -9485,5 +9485,4739 @@
     "bornIn": "Mount Gambier",
     "bornInLat": -37.829444444444,
     "bornInLng": 140.78277777778
+  },
+  "Q1741": {
+    "bornIn": "Vienna",
+    "bornInLat": 48.208333333333336,
+    "bornInLng": 16.3725
+  },
+  "Vienna": {
+    "lat": 48.208333333333336,
+    "lng": 16.3725
+  },
+  "Q3557487": {
+    "bornIn": "Vienna",
+    "bornInLat": 48.208333333333336,
+    "bornInLng": 16.3725
+  },
+  "Q7162457": {
+    "bornIn": "Pendleton",
+    "bornInLat": 53.4919,
+    "bornInLng": -2.2819
+  },
+  "Pendleton": {
+    "lat": 53.4919,
+    "lng": -2.2819
+  },
+  "Q11716750": {
+    "bornIn": "Pendleton",
+    "bornInLat": 53.4919,
+    "bornInLng": -2.2819
+  },
+  "Q2690524": {
+    "bornIn": "Peckham",
+    "bornInLat": 51.4714,
+    "bornInLng": -0.0625
+  },
+  "Peckham": {
+    "lat": 51.4714,
+    "lng": -0.0625
+  },
+  "Q4647543": {
+    "bornIn": "Peckham",
+    "bornInLat": 51.4714,
+    "bornInLng": -0.0625
+  },
+  "Q2660919": {
+    "bornIn": "Lindfield",
+    "bornInLat": 51.0135,
+    "bornInLng": -0.0833
+  },
+  "Lindfield": {
+    "lat": 51.0135,
+    "lng": -0.0833
+  },
+  "Q5075284": {
+    "bornIn": "Lindfield",
+    "bornInLat": 51.0135,
+    "bornInLng": -0.0833
+  },
+  "Q7145678": {
+    "bornIn": "Pendleton",
+    "bornInLat": 53.4919,
+    "bornInLng": -2.2819
+  },
+  "Q184579": {
+    "bornIn": "Bolton",
+    "bornInLat": 53.5782863,
+    "bornInLng": -2.4300367
+  },
+  "Q1382604": {
+    "bornIn": "Bolton",
+    "bornInLat": 53.5782863,
+    "bornInLng": -2.4300367
+  },
+  "Q17414386": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q2920346": {
+    "bornIn": "Wimbledon Park",
+    "bornInLat": 51.4361,
+    "bornInLng": -0.2074
+  },
+  "Wimbledon Park": {
+    "lat": 51.4361,
+    "lng": -0.2074
+  },
+  "Q5490819": {
+    "bornIn": "Wimbledon Park",
+    "bornInLat": 51.4361,
+    "bornInLng": -0.2074
+  },
+  "Q6759539": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q23154": {
+    "bornIn": "Bristol",
+    "bornInLat": 51.4538022,
+    "bornInLng": -2.5972985
+  },
+  "Q318263": {
+    "bornIn": "Bristol",
+    "bornInLat": 51.4538022,
+    "bornInLng": -2.5972985
+  },
+  "Q128069": {
+    "bornIn": "Syracuse",
+    "bornInLat": 43.046899,
+    "bornInLng": -76.144423
+  },
+  "Syracuse": {
+    "lat": 43.046899,
+    "lng": -76.144423
+  },
+  "Q2975083": {
+    "bornIn": "Syracuse",
+    "bornInLat": 43.046899,
+    "bornInLng": -76.144423
+  },
+  "Q179815": {
+    "bornIn": "Durham",
+    "bornInLat": 54.783333333333,
+    "bornInLng": -1.5666666666667
+  },
+  "Durham": {
+    "lat": 54.783333333333,
+    "lng": -1.5666666666667
+  },
+  "Q5006416": {
+    "bornIn": "Durham",
+    "bornInLat": 54.783333333333,
+    "bornInLng": -1.5666666666667
+  },
+  "Q2500974": {
+    "bornIn": "Richmond",
+    "bornInLat": 51.456,
+    "bornInLng": -0.301
+  },
+  "Richmond": {
+    "lat": 51.456,
+    "lng": -0.301
+  },
+  "Q272075": {
+    "bornIn": "Richmond",
+    "bornInLat": 51.456,
+    "bornInLng": -0.301
+  },
+  "Q935686": {
+    "bornIn": "Larne",
+    "bornInLat": 54.85166666666667,
+    "bornInLng": -5.8133333333333335
+  },
+  "Larne": {
+    "lat": 54.85166666666667,
+    "lng": -5.8133333333333335
+  },
+  "Q437157": {
+    "bornIn": "Larne",
+    "bornInLat": 54.85166666666667,
+    "bornInLng": -5.8133333333333335
+  },
+  "Q1138912": {
+    "bornIn": "Battersea",
+    "bornInLat": 51.463769444444,
+    "bornInLng": -0.16771111111111
+  },
+  "Battersea": {
+    "lat": 51.463769444444,
+    "lng": -0.16771111111111
+  },
+  "Q4935145": {
+    "bornIn": "Battersea",
+    "bornInLat": 51.463769444444,
+    "bornInLng": -0.16771111111111
+  },
+  "Q1007088": {
+    "bornIn": "Helensburgh",
+    "bornInLat": 56.00701,
+    "bornInLng": -4.7318
+  },
+  "Helensburgh": {
+    "lat": 56.00701,
+    "lng": -4.7318
+  },
+  "Q104146": {
+    "bornIn": "Helensburgh",
+    "bornInLat": 56.00701,
+    "bornInLng": -4.7318
+  },
+  "Q22889": {
+    "bornIn": "Bath",
+    "bornInLat": 51.381388888888885,
+    "bornInLng": -2.359722222222222
+  },
+  "Bath": {
+    "lat": 51.381388888888885,
+    "lng": -2.359722222222222
+  },
+  "Q17414810": {
+    "bornIn": "Bath",
+    "bornInLat": 51.381388888888885,
+    "bornInLng": -2.359722222222222
+  },
+  "Q446064": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q518393": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q343037": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q274056": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q51506": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q129429": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q7693644": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q450978": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q462314": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q4914448": {
+    "bornInLat": 53.407222222222224,
+    "bornInLng": -2.9916666666666667
+  },
+  "Q3531836": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q559506": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q60": {
+    "bornIn": "New York City",
+    "bornInLat": 40.71277777777778,
+    "bornInLng": -74.00611111111111
+  },
+  "New York City": {
+    "lat": 40.71277777777778,
+    "lng": -74.00611111111111
+  },
+  "Q156814": {
+    "bornIn": "New York City",
+    "bornInLat": 40.71277777777778,
+    "bornInLng": -74.00611111111111
+  },
+  "Q6555646": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q633991": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q407183": {
+    "bornIn": "Hawick",
+    "bornInLat": 55.424722222222,
+    "bornInLng": -2.7844444444444
+  },
+  "Hawick": {
+    "lat": 55.424722222222,
+    "lng": -2.7844444444444
+  },
+  "Q538084": {
+    "bornIn": "Hawick",
+    "bornInLat": 55.424722222222,
+    "bornInLng": -2.7844444444444
+  },
+  "Q2065416": {
+    "bornIn": "St Pancras",
+    "bornInLat": 51.5262,
+    "bornInLng": -0.1178
+  },
+  "St Pancras": {
+    "lat": 51.5262,
+    "lng": -0.1178
+  },
+  "Q2739689": {
+    "bornIn": "St Pancras",
+    "bornInLat": 51.5262,
+    "bornInLng": -0.1178
+  },
+  "Q36647": {
+    "bornIn": "Cork",
+    "bornInLat": 51.9,
+    "bornInLng": -8.4730555555556
+  },
+  "Cork": {
+    "lat": 51.9,
+    "lng": -8.4730555555556
+  },
+  "Q167521": {
+    "bornIn": "Cork",
+    "bornInLat": 51.9,
+    "bornInLng": -8.4730555555556
+  },
+  "Q146667": {
+    "bornIn": "Streatham",
+    "bornInLat": 51.4279,
+    "bornInLng": -0.1235
+  },
+  "Streatham": {
+    "lat": 51.4279,
+    "lng": -0.1235
+  },
+  "Q67295024": {
+    "bornIn": "Streatham",
+    "bornInLat": 51.4279,
+    "bornInLng": -0.1235
+  },
+  "Q1016944": {
+    "bornIn": "Peterhead",
+    "bornInLat": 57.5091,
+    "bornInLng": -1.7832
+  },
+  "Peterhead": {
+    "lat": 57.5091,
+    "lng": -1.7832
+  },
+  "Q5200877": {
+    "bornIn": "Peterhead",
+    "bornInLat": 57.5091,
+    "bornInLng": -1.7832
+  },
+  "Q16557": {
+    "bornIn": "Dallas",
+    "bornInLat": 32.779166666667,
+    "bornInLng": -96.808888888889
+  },
+  "Dallas": {
+    "lat": 32.779166666667,
+    "lng": -96.808888888889
+  },
+  "Q255577": {
+    "bornIn": "Dallas",
+    "bornInLat": 32.779166666667,
+    "bornInLng": -96.808888888889
+  },
+  "Q49266": {
+    "bornIn": "Wichita",
+    "bornInLat": 37.688888888889,
+    "bornInLng": -97.336111111111
+  },
+  "Wichita": {
+    "lat": 37.688888888889,
+    "lng": -97.336111111111
+  },
+  "Q315780": {
+    "bornIn": "Wichita",
+    "bornInLat": 37.688888888889,
+    "bornInLng": -97.336111111111
+  },
+  "Q84": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "London": {
+    "lat": 51.507222222222,
+    "lng": -0.1275
+  },
+  "Q19059397": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q721323": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q7618450": {
+    "bornIn": "Stoke Climsland",
+    "bornInLat": 50.546,
+    "bornInLng": -4.316
+  },
+  "Stoke Climsland": {
+    "lat": 50.546,
+    "lng": -4.316
+  },
+  "Q599476": {
+    "bornIn": "Stoke Climsland",
+    "bornInLat": 50.546,
+    "bornInLng": -4.316
+  },
+  "Q2118905": {
+    "bornIn": "Purley",
+    "bornInLat": 51.3373,
+    "bornInLng": -0.1141
+  },
+  "Purley": {
+    "lat": 51.3373,
+    "lng": -0.1141
+  },
+  "Q5297416": {
+    "bornIn": "Purley",
+    "bornInLat": 51.3373,
+    "bornInLng": -0.1141
+  },
+  "Q146766": {
+    "bornIn": "Dulwich",
+    "bornInLat": 51.4457,
+    "bornInLng": -0.0779
+  },
+  "Dulwich": {
+    "lat": 51.4457,
+    "lng": -0.0779
+  },
+  "Q7341638": {
+    "bornIn": "Dulwich",
+    "bornInLat": 51.4457,
+    "bornInLng": -0.0779
+  },
+  "Q16004084": {
+    "bornIn": "Bristol",
+    "bornInLat": 51.4538022,
+    "bornInLng": -2.5972985
+  },
+  "Q880861": {
+    "bornIn": "Blackheath",
+    "bornInLat": 51.47,
+    "bornInLng": 0.009
+  },
+  "Blackheath": {
+    "lat": 51.47,
+    "lng": 0.009
+  },
+  "Q17416281": {
+    "bornIn": "Blackheath",
+    "bornInLat": 51.47,
+    "bornInLng": 0.009
+  },
+  "Q223517": {
+    "bornIn": "Ahilyanagar",
+    "bornInLat": 19.083333333333,
+    "bornInLng": 74.733333333333
+  },
+  "Ahilyanagar": {
+    "lat": 19.083333333333,
+    "lng": 74.733333333333
+  },
+  "Q561401": {
+    "bornIn": "Ahilyanagar",
+    "bornInLat": 19.083333333333,
+    "bornInLng": 74.733333333333
+  },
+  "Q4803836": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q1045096": {
+    "bornIn": "South Kensington",
+    "bornInLat": 51.4912,
+    "bornInLng": -0.1769
+  },
+  "South Kensington": {
+    "lat": 51.4912,
+    "lng": -0.1769
+  },
+  "Q294454": {
+    "bornIn": "South Kensington",
+    "bornInLat": 51.4912,
+    "bornInLng": -0.1769
+  },
+  "Q985279": {
+    "bornIn": "Morecambe",
+    "bornInLat": 54.066666666667,
+    "bornInLng": -2.85
+  },
+  "Morecambe": {
+    "lat": 54.066666666667,
+    "lng": -2.85
+  },
+  "Q462335": {
+    "bornIn": "Morecambe",
+    "bornInLat": 54.066666666667,
+    "bornInLng": -2.85
+  },
+  "Q43196": {
+    "bornIn": "Cincinnati",
+    "bornInLat": 39.1,
+    "bornInLng": -84.5125
+  },
+  "Cincinnati": {
+    "lat": 39.1,
+    "lng": -84.5125
+  },
+  "Q309989": {
+    "bornIn": "Cincinnati",
+    "bornInLat": 39.1,
+    "bornInLng": -84.5125
+  },
+  "Q909993": {
+    "bornIn": "Brentwood",
+    "bornInLat": 51.620277777778,
+    "bornInLng": 0.305
+  },
+  "Brentwood": {
+    "lat": 51.620277777778,
+    "lng": 0.305
+  },
+  "Q3101459": {
+    "bornIn": "Brentwood",
+    "bornInLat": 51.620277777778,
+    "bornInLng": 0.305
+  },
+  "Q64": {
+    "bornIn": "Berlin",
+    "bornInLat": 52.516666666667,
+    "bornInLng": 13.383333333333
+  },
+  "Berlin": {
+    "lat": 52.516666666667,
+    "lng": 13.383333333333
+  },
+  "Q75340": {
+    "bornIn": "Berlin",
+    "bornInLat": 52.516666666667,
+    "bornInLng": 13.383333333333
+  },
+  "Q743535": {
+    "bornIn": "Chelsea",
+    "bornInLat": 51.4875,
+    "bornInLng": -0.1684
+  },
+  "Chelsea": {
+    "lat": 51.4875,
+    "lng": -0.1684
+  },
+  "Q5856935": {
+    "bornIn": "Chelsea",
+    "bornInLat": 51.4875,
+    "bornInLng": -0.1684
+  },
+  "Q184775": {
+    "bornIn": "Ipswich",
+    "bornInLat": 52.059444444444,
+    "bornInLng": 1.1555555555556
+  },
+  "Ipswich": {
+    "lat": 52.059444444444,
+    "lng": 1.1555555555556
+  },
+  "Q7167323": {
+    "bornIn": "Ipswich",
+    "bornInLat": 52.059444444444,
+    "bornInLng": 1.1555555555556
+  },
+  "Q641": {
+    "bornIn": "Venice",
+    "bornInLat": 45.439722222222,
+    "bornInLng": 12.331944444444
+  },
+  "Venice": {
+    "lat": 45.439722222222,
+    "lng": 12.331944444444
+  },
+  "Q505683": {
+    "bornIn": "Venice",
+    "bornInLat": 45.439722222222,
+    "bornInLng": 12.331944444444
+  },
+  "Q5661060": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q656": {
+    "bornIn": "Saint Petersburg",
+    "bornInLat": 59.95,
+    "bornInLng": 30.316666666667
+  },
+  "Saint Petersburg": {
+    "lat": 59.95,
+    "lng": 30.316666666667
+  },
+  "Q231316": {
+    "bornIn": "Saint Petersburg",
+    "bornInLat": 59.95,
+    "bornInLng": 30.316666666667
+  },
+  "Q939867": {
+    "bornIn": "Pulborough",
+    "bornInLat": 50.96,
+    "bornInLng": -0.51
+  },
+  "Pulborough": {
+    "lat": 50.96,
+    "lng": -0.51
+  },
+  "Q17419065": {
+    "bornIn": "Pulborough",
+    "bornInLat": 50.96,
+    "bornInLng": -0.51
+  },
+  "Q1186680": {
+    "bornIn": "Monessen",
+    "bornInLat": 40.1542,
+    "bornInLng": -79.8828
+  },
+  "Monessen": {
+    "lat": 40.1542,
+    "lng": -79.8828
+  },
+  "Q439570": {
+    "bornIn": "Monessen",
+    "bornInLat": 40.1542,
+    "bornInLng": -79.8828
+  },
+  "Q1761": {
+    "bornIn": "Dublin",
+    "bornInLat": 53.34972222222222,
+    "bornInLng": -6.260277777777778
+  },
+  "Dublin": {
+    "lat": 53.34972222222222,
+    "lng": -6.260277777777778
+  },
+  "Q17418894": {
+    "bornIn": "Dublin",
+    "bornInLat": 53.34972222222222,
+    "bornInLng": -6.260277777777778
+  },
+  "Q2256": {
+    "bornIn": "Birmingham",
+    "bornInLat": 52.4948994,
+    "bornInLng": -1.8518439
+  },
+  "Q1365832": {
+    "bornIn": "Birmingham",
+    "bornInLat": 52.4948994,
+    "bornInLng": -1.8518439
+  },
+  "Q297562": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q208139": {
+    "bornIn": "London Borough of Newham",
+    "bornInLat": 51.516666666666666,
+    "bornInLng": 0.03333333333333333
+  },
+  "London Borough of Newham": {
+    "lat": 51.516666666666666,
+    "lng": 0.03333333333333333
+  },
+  "Q928678": {
+    "bornIn": "London Borough of Newham",
+    "bornInLat": 51.516666666666666,
+    "bornInLng": 0.03333333333333333
+  },
+  "Q205679": {
+    "bornIn": "London Borough of Hackney",
+    "bornInLat": 51.544722222222,
+    "bornInLng": -0.0575
+  },
+  "London Borough of Hackney": {
+    "lat": 51.544722222222,
+    "lng": -0.0575
+  },
+  "Q684869": {
+    "bornIn": "London Borough of Hackney",
+    "bornInLat": 51.544722222222,
+    "bornInLng": -0.0575
+  },
+  "Q441587": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q123372": {
+    "bornIn": "Beckenham",
+    "bornInLat": 51.4077,
+    "bornInLng": -0.022
+  },
+  "Beckenham": {
+    "lat": 51.4077,
+    "lng": -0.022
+  },
+  "Q17419163": {
+    "bornIn": "Beckenham",
+    "bornInLat": 51.4077,
+    "bornInLng": -0.022
+  },
+  "Q6794897": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q146858": {
+    "bornIn": "Wembley",
+    "bornInLat": 51.556,
+    "bornInLng": -0.3042
+  },
+  "Wembley": {
+    "lat": 51.556,
+    "lng": -0.3042
+  },
+  "Q7926345": {
+    "bornIn": "Wembley",
+    "bornInLat": 51.556,
+    "bornInLng": -0.3042
+  },
+  "Q79005": {
+    "bornIn": "Vienna",
+    "bornInLat": 48.208333333333336,
+    "bornInLng": 16.3725
+  },
+  "Q180057": {
+    "bornIn": "Lincoln",
+    "bornInLat": 53.25,
+    "bornInLng": -0.55
+  },
+  "Lincoln": {
+    "lat": 53.25,
+    "lng": -0.55
+  },
+  "Q17427160": {
+    "bornIn": "Lincoln",
+    "bornInLat": 53.25,
+    "bornInLng": -0.55
+  },
+  "Q23556": {
+    "bornIn": "Atlanta",
+    "bornInLat": 33.754444444444445,
+    "bornInLng": -84.38972222222222
+  },
+  "Atlanta": {
+    "lat": 33.754444444444445,
+    "lng": -84.38972222222222
+  },
+  "Q2446692": {
+    "bornIn": "Atlanta",
+    "bornInLat": 33.754444444444445,
+    "bornInLng": -84.38972222222222
+  },
+  "Q35765": {
+    "bornIn": "Osaka",
+    "bornInLat": 34.69375,
+    "bornInLng": 135.5021111111111
+  },
+  "Osaka": {
+    "lat": 34.69375,
+    "lng": 135.5021111111111
+  },
+  "Q6759828": {
+    "bornIn": "Osaka",
+    "bornInLat": 34.69375,
+    "bornInLng": 135.5021111111111
+  },
+  "Q10748975": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q7167439": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q5273695": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q5346492": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q194037": {
+    "bornIn": "Seraing",
+    "bornInLat": 50.5986,
+    "bornInLng": 5.5122
+  },
+  "Seraing": {
+    "lat": 50.5986,
+    "lng": 5.5122
+  },
+  "Q214959": {
+    "bornIn": "Seraing",
+    "bornInLat": 50.5986,
+    "bornInLng": 5.5122
+  },
+  "Q3430720": {
+    "bornIn": "Richmond",
+    "bornInLat": 51.456,
+    "bornInLng": -0.301
+  },
+  "Q1449": {
+    "bornIn": "Genoa",
+    "bornInLat": 44.407186111111,
+    "bornInLng": 8.9339833333333
+  },
+  "Genoa": {
+    "lat": 44.407186111111,
+    "lng": 8.9339833333333
+  },
+  "Q5363483": {
+    "bornIn": "Genoa",
+    "bornInLat": 44.407186111111,
+    "bornInLng": 8.9339833333333
+  },
+  "Q1874": {
+    "bornIn": "Odesa",
+    "bornInLat": 46.47747,
+    "bornInLng": 30.73262
+  },
+  "Odesa": {
+    "lat": 46.47747,
+    "lng": 30.73262
+  },
+  "Q817970": {
+    "bornIn": "Odesa",
+    "bornInLat": 46.47747,
+    "bornInLng": 30.73262
+  },
+  "Q39178": {
+    "bornIn": "Port of Spain",
+    "bornInLat": 10.666666666667,
+    "bornInLng": -61.516666666667
+  },
+  "Port of Spain": {
+    "lat": 10.666666666667,
+    "lng": -61.516666666667
+  },
+  "Q723974": {
+    "bornIn": "Port of Spain",
+    "bornInLat": 10.666666666667,
+    "bornInLng": -61.516666666667
+  },
+  "Q896356": {
+    "bornIn": "Connewitz",
+    "bornInLat": 51.3099,
+    "bornInLng": 12.3732
+  },
+  "Connewitz": {
+    "lat": 51.3099,
+    "lng": 12.3732
+  },
+  "Q70380": {
+    "bornIn": "Connewitz",
+    "bornInLat": 51.3099,
+    "bornInLng": 12.3732
+  },
+  "Q587996": {
+    "bornIn": "Cowes",
+    "bornInLat": 50.7595,
+    "bornInLng": -1.3002
+  },
+  "Cowes": {
+    "lat": 50.7595,
+    "lng": -1.3002
+  },
+  "Q261944": {
+    "bornIn": "Cowes",
+    "bornInLat": 50.7595,
+    "bornInLng": -1.3002
+  },
+  "Q267054": {
+    "bornIn": "Broseley",
+    "bornInLat": 52.612355555556,
+    "bornInLng": -2.4819444444444
+  },
+  "Broseley": {
+    "lat": 52.612355555556,
+    "lng": -2.4819444444444
+  },
+  "Q443030": {
+    "bornIn": "Broseley",
+    "bornInLat": 52.612355555556,
+    "bornInLng": -2.4819444444444
+  },
+  "Q208257": {
+    "bornIn": "Bedford",
+    "bornInLat": 52.134444444444,
+    "bornInLng": -0.46305555555556
+  },
+  "Bedford": {
+    "lat": 52.134444444444,
+    "lng": -0.46305555555556
+  },
+  "Q380887": {
+    "bornIn": "Bedford",
+    "bornInLat": 52.134444444444,
+    "bornInLng": -0.46305555555556
+  },
+  "Q5542393": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q4328380": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q743521": {
+    "bornIn": "Scarborough",
+    "bornInLat": 54.2825,
+    "bornInLng": -0.4
+  },
+  "Scarborough": {
+    "lat": 54.2825,
+    "lng": -0.4
+  },
+  "Q17430045": {
+    "bornIn": "Scarborough",
+    "bornInLat": 54.2825,
+    "bornInLng": -0.4
+  },
+  "Q17430835": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q128321": {
+    "bornIn": "Midland",
+    "bornInLat": 32.005,
+    "bornInLng": -102.09917
+  },
+  "Midland": {
+    "lat": 32.005,
+    "lng": -102.09917
+  },
+  "Q240238": {
+    "bornIn": "Midland",
+    "bornInLat": 32.005,
+    "bornInLng": -102.09917
+  },
+  "Q331380": {
+    "bornIn": "Schenectady",
+    "bornInLat": 42.804166666667,
+    "bornInLng": -73.929166666667
+  },
+  "Schenectady": {
+    "lat": 42.804166666667,
+    "lng": -73.929166666667
+  },
+  "Q322172": {
+    "bornIn": "Schenectady",
+    "bornInLat": 42.804166666667,
+    "bornInLng": -73.929166666667
+  },
+  "Q6258426": {
+    "bornIn": "Chelsea",
+    "bornInLat": 51.4875,
+    "bornInLng": -0.1684
+  },
+  "Q5906367": {
+    "bornIn": "Horsley",
+    "bornInLat": 51.6806,
+    "bornInLng": -2.23472
+  },
+  "Horsley": {
+    "lat": 51.6806,
+    "lng": -2.23472
+  },
+  "Q6183536": {
+    "bornIn": "Horsley",
+    "bornInLat": 51.6806,
+    "bornInLng": -2.23472
+  },
+  "Q3132723": {
+    "bornIn": "Hillbrow",
+    "bornInLat": -26.188888888889,
+    "bornInLng": 28.048888888889
+  },
+  "Hillbrow": {
+    "lat": -26.188888888889,
+    "lng": 28.048888888889
+  },
+  "Q1086861": {
+    "bornIn": "Hillbrow",
+    "bornInLat": -26.188888888889,
+    "bornInLng": 28.048888888889
+  },
+  "Q4356465": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q5647672": {
+    "bornIn": "Handsworth",
+    "bornInLat": 52.5124,
+    "bornInLng": -1.94986
+  },
+  "Handsworth": {
+    "lat": 52.5124,
+    "lng": -1.94986
+  },
+  "Q455330": {
+    "bornIn": "Handsworth",
+    "bornInLat": 52.5124,
+    "bornInLng": -1.94986
+  },
+  "Q573709": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q1175098": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q3398900": {
+    "bornIn": "Tiger Bay",
+    "bornInLat": 51.458,
+    "bornInLng": -3.17
+  },
+  "Tiger Bay": {
+    "lat": 51.458,
+    "lng": -3.17
+  },
+  "Q234754": {
+    "bornIn": "Tiger Bay",
+    "bornInLat": 51.458,
+    "bornInLng": -3.17
+  },
+  "Q1003286": {
+    "bornIn": "Cottingham",
+    "bornInLat": 53.7822,
+    "bornInLng": -0.413629
+  },
+  "Cottingham": {
+    "lat": 53.7822,
+    "lng": -0.413629
+  },
+  "Q336883": {
+    "bornIn": "Cottingham",
+    "bornInLat": 53.7822,
+    "bornInLng": -0.413629
+  },
+  "Q389483": {
+    "bornIn": "West Allis",
+    "bornInLat": 43.00805555555556,
+    "bornInLng": -88.01833333333333
+  },
+  "West Allis": {
+    "lat": 43.00805555555556,
+    "lng": -88.01833333333333
+  },
+  "Q347528": {
+    "bornIn": "West Allis",
+    "bornInLat": 43.00805555555556,
+    "bornInLng": -88.01833333333333
+  },
+  "Q270": {
+    "bornIn": "Warsaw",
+    "bornInLat": 52.23,
+    "bornInLng": 21.011111111111113
+  },
+  "Warsaw": {
+    "lat": 52.23,
+    "lng": 21.011111111111113
+  },
+  "Q240736": {
+    "bornIn": "Warsaw",
+    "bornInLat": 52.23,
+    "bornInLng": 21.011111111111113
+  },
+  "Q322835": {
+    "bornIn": "Hebden Bridge",
+    "bornInLat": 53.742,
+    "bornInLng": -2.009
+  },
+  "Q1143278": {
+    "bornIn": "Twickenham",
+    "bornInLat": 51.4486,
+    "bornInLng": -0.3369
+  },
+  "Twickenham": {
+    "lat": 51.4486,
+    "lng": -0.3369
+  },
+  "Q5229101": {
+    "bornIn": "Twickenham",
+    "bornInLat": 51.4486,
+    "bornInLng": -0.3369
+  },
+  "Q122744": {
+    "bornIn": "Maida Vale",
+    "bornInLat": 51.5274,
+    "bornInLng": -0.1899
+  },
+  "Maida Vale": {
+    "lat": 51.5274,
+    "lng": -0.1899
+  },
+  "Q574400": {
+    "bornIn": "Maida Vale",
+    "bornInLat": 51.5274,
+    "bornInLng": -0.1899
+  },
+  "Q4354147": {
+    "bornIn": "St Pancras",
+    "bornInLat": 51.5262,
+    "bornInLng": -0.1178
+  },
+  "Q145": {
+    "bornIn": "United Kingdom",
+    "bornInLat": 54.6,
+    "bornInLng": -2
+  },
+  "United Kingdom": {
+    "lat": 54.6,
+    "lng": -2
+  },
+  "Q17432746": {
+    "bornIn": "United Kingdom",
+    "bornInLat": 54.6,
+    "bornInLng": -2
+  },
+  "Q4093": {
+    "bornIn": "Glasgow",
+    "bornInLat": 55.861111111111114,
+    "bornInLng": -4.25
+  },
+  "Glasgow": {
+    "lat": 55.861111111111114,
+    "lng": -4.25
+  },
+  "Q264759": {
+    "bornIn": "Glasgow",
+    "bornInLat": 55.861111111111114,
+    "bornInLng": -4.25
+  },
+  "Q8717": {
+    "bornIn": "Seville",
+    "bornInLat": 37.38861111111111,
+    "bornInLng": -5.995555555555556
+  },
+  "Seville": {
+    "lat": 37.38861111111111,
+    "lng": -5.995555555555556
+  },
+  "Q2701392": {
+    "bornIn": "Seville",
+    "bornInLat": 37.38861111111111,
+    "bornInLng": -5.995555555555556
+  },
+  "Q668140": {
+    "bornIn": "Barnes",
+    "bornInLat": 51.4741,
+    "bornInLng": -0.2352
+  },
+  "Barnes": {
+    "lat": 51.4741,
+    "lng": -0.2352
+  },
+  "Q6200068": {
+    "bornIn": "Barnes",
+    "bornInLat": 51.4741,
+    "bornInLng": -0.2352
+  },
+  "Q270734": {
+    "bornIn": "Broken Hill",
+    "bornInLat": -31.965,
+    "bornInLng": 141.4511111
+  },
+  "Broken Hill": {
+    "lat": -31.965,
+    "lng": 141.4511111
+  },
+  "Q547983": {
+    "bornIn": "Broken Hill",
+    "bornInLat": -31.965,
+    "bornInLng": 141.4511111
+  },
+  "Q474605": {
+    "bornIn": "Rochdale",
+    "bornInLat": 53.6136,
+    "bornInLng": -2.161
+  },
+  "Rochdale": {
+    "lat": 53.6136,
+    "lng": -2.161
+  },
+  "Q463275": {
+    "bornIn": "Rochdale",
+    "bornInLat": 53.6136,
+    "bornInLng": -2.161
+  },
+  "Q16003695": {
+    "bornIn": "Glasgow",
+    "bornInLat": 55.861111111111114,
+    "bornInLng": -4.25
+  },
+  "Q3787461": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q2925857": {
+    "bornIn": "Broadstone",
+    "bornInLat": 50.76046,
+    "bornInLng": -1.99495
+  },
+  "Broadstone": {
+    "lat": 50.76046,
+    "lng": -1.99495
+  },
+  "Q7626648": {
+    "bornIn": "Broadstone",
+    "bornInLat": 50.76046,
+    "bornInLng": -1.99495
+  },
+  "Q3367868": {
+    "bornIn": "Fulham",
+    "bornInLat": 51.4767,
+    "bornInLng": -0.2138
+  },
+  "Fulham": {
+    "lat": 51.4767,
+    "lng": -0.2138
+  },
+  "Q1669395": {
+    "bornIn": "Fulham",
+    "bornInLat": 51.4767,
+    "bornInLng": -0.2138
+  },
+  "Q8646": {
+    "bornIn": "Hong Kong",
+    "bornInLat": 22.278333333333,
+    "bornInLng": 114.15861111111
+  },
+  "Hong Kong": {
+    "lat": 22.278333333333,
+    "lng": 114.15861111111
+  },
+  "Q17435876": {
+    "bornIn": "Hong Kong",
+    "bornInLat": 22.278333333333,
+    "bornInLng": 114.15861111111
+  },
+  "Q549287": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q737593": {
+    "bornIn": "Battle",
+    "bornInLat": 50.916666666667,
+    "bornInLng": 0.48333333333333
+  },
+  "Battle": {
+    "lat": 50.916666666667,
+    "lng": 0.48333333333333
+  },
+  "Q3082544": {
+    "bornIn": "Battle",
+    "bornInLat": 50.916666666667,
+    "bornInLng": 0.48333333333333
+  },
+  "Q6069046": {
+    "bornIn": "Maida Vale",
+    "bornInLat": 51.5274,
+    "bornInLng": -0.1899
+  },
+  "Q5465": {
+    "bornIn": "Cape Town",
+    "bornInLat": -33.92527777777778,
+    "bornInLng": 18.42388888888889
+  },
+  "Cape Town": {
+    "lat": -33.92527777777778,
+    "lng": 18.42388888888889
+  },
+  "Q4912307": {
+    "bornIn": "Cape Town",
+    "bornInLat": -33.92527777777778,
+    "bornInLng": 18.42388888888889
+  },
+  "Q3955091": {
+    "bornIn": "Semley",
+    "bornInLat": 51.041,
+    "bornInLng": -2.157
+  },
+  "Semley": {
+    "lat": 51.041,
+    "lng": -2.157
+  },
+  "Q965379": {
+    "bornIn": "Semley",
+    "bornInLat": 51.041,
+    "bornInLng": -2.157
+  },
+  "Q5110781": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q2079944": {
+    "bornIn": "West Bridgford",
+    "bornInLat": 52.92,
+    "bornInLng": -1.13
+  },
+  "West Bridgford": {
+    "lat": 52.92,
+    "lng": -1.13
+  },
+  "Q6530744": {
+    "bornIn": "West Bridgford",
+    "bornInLat": 52.92,
+    "bornInLng": -1.13
+  },
+  "Q47002": {
+    "bornIn": "Carlton",
+    "bornInLat": -37.8001,
+    "bornInLng": 144.967
+  },
+  "Carlton": {
+    "lat": -37.8001,
+    "lng": 144.967
+  },
+  "Q381031": {
+    "bornIn": "Carlton",
+    "bornInLat": -37.8001,
+    "bornInLng": 144.967
+  },
+  "Q4706388": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q1351353": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q47952": {
+    "bornIn": "Salford",
+    "bornInLat": 53.482777777778,
+    "bornInLng": -2.2930555555556
+  },
+  "Salford": {
+    "lat": 53.482777777778,
+    "lng": -2.2930555555556
+  },
+  "Q2094347": {
+    "bornIn": "Salford",
+    "bornInLat": 53.482777777778,
+    "bornInLng": -2.2930555555556
+  },
+  "Q34605": {
+    "bornIn": "Montagnana",
+    "bornInLat": 45.2333207,
+    "bornInLng": 11.4657779
+  },
+  "Montagnana": {
+    "lat": 45.2333207,
+    "lng": 11.4657779
+  },
+  "Q944986": {
+    "bornIn": "Montagnana",
+    "bornInLat": 45.2333207,
+    "bornInLng": 11.4657779
+  },
+  "Q110983284": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q623687": {
+    "bornIn": "Falkirk",
+    "bornInLat": 55.99944444444444,
+    "bornInLng": -3.7847222222222223
+  },
+  "Falkirk": {
+    "lat": 55.99944444444444,
+    "lng": -3.7847222222222223
+  },
+  "Q5542521": {
+    "bornIn": "Falkirk",
+    "bornInLat": 55.99944444444444,
+    "bornInLng": -3.7847222222222223
+  },
+  "Q7228397": {
+    "bornIn": "Pontyberem",
+    "bornInLat": 51.779,
+    "bornInLng": -4.174
+  },
+  "Pontyberem": {
+    "lat": 51.779,
+    "lng": -4.174
+  },
+  "Q3037194": {
+    "bornIn": "Pontyberem",
+    "bornInLat": 51.779,
+    "bornInLng": -4.174
+  },
+  "Q4867120": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q18125": {
+    "bornIn": "Manchester",
+    "bornInLat": 53.466666666667,
+    "bornInLng": -2.2333333333333
+  },
+  "Manchester": {
+    "lat": 53.466666666667,
+    "lng": -2.2333333333333
+  },
+  "Q7327374": {
+    "bornIn": "Manchester",
+    "bornInLat": 53.466666666667,
+    "bornInLng": -2.2333333333333
+  },
+  "Q49295424": {
+    "bornIn": "Petit Valley",
+    "bornInLat": 10.701490759093415,
+    "bornInLng": -61.55035074976497
+  },
+  "Petit Valley": {
+    "lat": 10.701490759093415,
+    "lng": -61.55035074976497
+  },
+  "Q3228666": {
+    "bornIn": "Petit Valley",
+    "bornInLat": 10.701490759093415,
+    "bornInLng": -61.55035074976497
+  },
+  "Q2598": {
+    "bornIn": "Watford",
+    "bornInLat": 51.655277777777776,
+    "bornInLng": -0.3958333333333333
+  },
+  "Watford": {
+    "lat": 51.655277777777776,
+    "lng": -0.3958333333333333
+  },
+  "Q2510829": {
+    "bornIn": "Watford",
+    "bornInLat": 51.655277777777776,
+    "bornInLng": -0.3958333333333333
+  },
+  "Q3414195": {
+    "bornIn": "New York City",
+    "bornInLat": 40.71277777777778,
+    "bornInLng": -74.00611111111111
+  },
+  "Q4352757": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q272091": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q208143": {
+    "bornIn": "Wigan",
+    "bornInLat": 53.544722222222,
+    "bornInLng": -2.6316666666667
+  },
+  "Wigan": {
+    "lat": 53.544722222222,
+    "lng": -2.6316666666667
+  },
+  "Q181816": {
+    "bornIn": "Wigan",
+    "bornInLat": 53.544722222222,
+    "bornInLng": -2.6316666666667
+  },
+  "Q188313": {
+    "bornIn": "Blackburn",
+    "bornInLat": 53.749326,
+    "bornInLng": -2.4840566
+  },
+  "Q3194071": {
+    "bornIn": "Blackburn",
+    "bornInLat": 53.749326,
+    "bornInLng": -2.4840566
+  },
+  "Q14945": {
+    "bornIn": "Merseburg",
+    "bornInLat": 51.354444444444,
+    "bornInLng": 11.992777777778
+  },
+  "Merseburg": {
+    "lat": 51.354444444444,
+    "lng": 11.992777777778
+  },
+  "Q62745": {
+    "bornIn": "Merseburg",
+    "bornInLat": 51.354444444444,
+    "bornInLng": 11.992777777778
+  },
+  "Q209176": {
+    "bornIn": "Ely",
+    "bornInLat": 52.398055555556,
+    "bornInLng": 0.26222222222222
+  },
+  "Ely": {
+    "lat": 52.398055555556,
+    "lng": 0.26222222222222
+  },
+  "Q1757165": {
+    "bornIn": "Ely",
+    "bornInLat": 52.398055555556,
+    "bornInLng": 0.26222222222222
+  },
+  "Q426209": {
+    "bornIn": "Clinton",
+    "bornInLat": 42.416666666667,
+    "bornInLng": -71.683333333333
+  },
+  "Clinton": {
+    "lat": 42.416666666667,
+    "lng": -71.683333333333
+  },
+  "Q5046567": {
+    "bornIn": "Clinton",
+    "bornInLat": 42.416666666667,
+    "bornInLng": -71.683333333333
+  },
+  "Q288082": {
+    "bornIn": "Gainsborough",
+    "bornInLat": 53.4016,
+    "bornInLng": -0.7732
+  },
+  "Gainsborough": {
+    "lat": 53.4016,
+    "lng": -0.7732
+  },
+  "Q177248": {
+    "bornIn": "Gainsborough",
+    "bornInLat": 53.4016,
+    "bornInLng": -0.7732
+  },
+  "Q1632204": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q2878626": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q3434910": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q6845941": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q7308670": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q179496": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q17415327": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q161491": {
+    "bornIn": "Reading",
+    "bornInLat": 51.454166666667,
+    "bornInLng": -0.97305555555556
+  },
+  "Reading": {
+    "lat": 51.454166666667,
+    "lng": -0.97305555555556
+  },
+  "Q4799817": {
+    "bornIn": "Reading",
+    "bornInLat": 51.454166666667,
+    "bornInLng": -0.97305555555556
+  },
+  "Q6761826": {
+    "bornIn": "Marian-glas",
+    "bornInLat": 53.3346,
+    "bornInLng": -4.2478
+  },
+  "Marian-glas": {
+    "lat": 53.3346,
+    "lng": -4.2478
+  },
+  "Q310934": {
+    "bornIn": "Marian-glas",
+    "bornInLat": 53.3346,
+    "bornInLng": -4.2478
+  },
+  "Q437928": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q4708035": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q1975172": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q2356650": {
+    "bornIn": "Rusholme",
+    "bornInLat": 53.4544,
+    "bornInLng": -2.2247
+  },
+  "Rusholme": {
+    "lat": 53.4544,
+    "lng": -2.2247
+  },
+  "Q7004641": {
+    "bornIn": "Rusholme",
+    "bornInLat": 53.4544,
+    "bornInLng": -2.2247
+  },
+  "Q1026182": {
+    "bornIn": "Shepherd's Bush",
+    "bornInLat": 51.5042,
+    "bornInLng": -0.2207
+  },
+  "Shepherd's Bush": {
+    "lat": 51.5042,
+    "lng": -0.2207
+  },
+  "Q1351583": {
+    "bornIn": "Shepherd's Bush",
+    "bornInLat": 51.5042,
+    "bornInLng": -0.2207
+  },
+  "Q7965568": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q24826": {
+    "bornIn": "Liverpool",
+    "bornInLat": 53.407222222222224,
+    "bornInLng": -2.9916666666666667
+  },
+  "Liverpool": {
+    "lat": 53.407222222222224,
+    "lng": -2.9916666666666667
+  },
+  "Q1115072": {
+    "bornIn": "Liverpool",
+    "bornInLat": 53.407222222222224,
+    "bornInLng": -2.9916666666666667
+  },
+  "Q946361": {
+    "bornIn": "Bamber Bridge",
+    "bornInLat": 53.728055555556,
+    "bornInLng": -2.6605555555556
+  },
+  "Bamber Bridge": {
+    "lat": 53.728055555556,
+    "lng": -2.6605555555556
+  },
+  "Q5546495": {
+    "bornIn": "Bamber Bridge",
+    "bornInLat": 53.728055555556,
+    "bornInLng": -2.6605555555556
+  },
+  "Q998576": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q287460": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q17505515": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q17505546": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q128576": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q3048766": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q29303": {
+    "bornIn": "Canterbury",
+    "bornInLat": 51.278333333333,
+    "bornInLng": 1.0775
+  },
+  "Canterbury": {
+    "lat": 51.278333333333,
+    "lng": 1.0775
+  },
+  "Q4714249": {
+    "bornIn": "Canterbury",
+    "bornInLat": 51.278333333333,
+    "bornInLng": 1.0775
+  },
+  "Q780923": {
+    "bornIn": "Wallasey",
+    "bornInLat": 53.423,
+    "bornInLng": -3.065
+  },
+  "Wallasey": {
+    "lat": 53.423,
+    "lng": -3.065
+  },
+  "Q5748096": {
+    "bornIn": "Wallasey",
+    "bornInLat": 53.423,
+    "bornInLng": -3.065
+  },
+  "Q271111": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q7173556": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q3417728": {
+    "bornIn": "Beckton",
+    "bornInLat": 51.5146,
+    "bornInLng": 0.0673
+  },
+  "Beckton": {
+    "lat": 51.5146,
+    "lng": 0.0673
+  },
+  "Q6929962": {
+    "bornIn": "Beckton",
+    "bornInLat": 51.5146,
+    "bornInLng": 0.0673
+  },
+  "Q6225": {
+    "bornIn": "Coventry",
+    "bornInLat": 52.416666666667,
+    "bornInLng": -1.5166666666667
+  },
+  "Coventry": {
+    "lat": 52.416666666667,
+    "lng": -1.5166666666667
+  },
+  "Q272613": {
+    "bornIn": "Coventry",
+    "bornInLat": 52.416666666667,
+    "bornInLng": -1.5166666666667
+  },
+  "Q641756": {
+    "bornIn": "Daventry",
+    "bornInLat": 52.257777777777775,
+    "bornInLng": -1.162777777777778
+  },
+  "Daventry": {
+    "lat": 52.257777777777775,
+    "lng": -1.162777777777778
+  },
+  "Q17515898": {
+    "bornIn": "Daventry",
+    "bornInLat": 52.257777777777775,
+    "bornInLng": -1.162777777777778
+  },
+  "Q22905": {
+    "bornIn": "Bradford",
+    "bornInLat": 53.794,
+    "bornInLng": -1.751
+  },
+  "Bradford": {
+    "lat": 53.794,
+    "lng": -1.751
+  },
+  "Q725344": {
+    "bornIn": "Bradford",
+    "bornInLat": 53.794,
+    "bornInLng": -1.751
+  },
+  "Q26328": {
+    "bornIn": "Knightsbridge",
+    "bornInLat": 51.5017,
+    "bornInLng": -0.1621
+  },
+  "Knightsbridge": {
+    "lat": 51.5017,
+    "lng": -0.1621
+  },
+  "Q6297498": {
+    "bornIn": "Knightsbridge",
+    "bornInLat": 51.5017,
+    "bornInLng": -0.1621
+  },
+  "Q7922065": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q49247": {
+    "bornIn": "Anaheim",
+    "bornInLat": 33.836111111111,
+    "bornInLng": -117.88972222222
+  },
+  "Anaheim": {
+    "lat": 33.836111111111,
+    "lng": -117.88972222222
+  },
+  "Q273544": {
+    "bornIn": "Anaheim",
+    "bornInLat": 33.836111111111,
+    "bornInLng": -117.88972222222
+  },
+  "Q146690": {
+    "bornIn": "Brixton",
+    "bornInLat": 51.4575,
+    "bornInLng": -0.1175
+  },
+  "Brixton": {
+    "lat": 51.4575,
+    "lng": -0.1175
+  },
+  "Q46053": {
+    "bornIn": "Brixton",
+    "bornInLat": 51.4575,
+    "bornInLng": -0.1175
+  },
+  "Q6602": {
+    "bornIn": "Strasbourg",
+    "bornInLat": 48.573333333333,
+    "bornInLng": 7.7522222222222
+  },
+  "Strasbourg": {
+    "lat": 48.573333333333,
+    "lng": 7.7522222222222
+  },
+  "Q157191": {
+    "bornIn": "Strasbourg",
+    "bornInLat": 48.573333333333,
+    "bornInLng": 7.7522222222222
+  },
+  "Q508953": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q72818": {
+    "bornIn": "Haiphong",
+    "bornInLat": 20.8,
+    "bornInLng": 106.66666666667
+  },
+  "Haiphong": {
+    "lat": 20.8,
+    "lng": 106.66666666667
+  },
+  "Q3381186": {
+    "bornIn": "Haiphong",
+    "bornInLat": 20.8,
+    "bornInLng": 106.66666666667
+  },
+  "Q164566": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q5233808": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q736742": {
+    "bornIn": "Wimbledon",
+    "bornInLat": 51.4235,
+    "bornInLng": -0.2171
+  },
+  "Wimbledon": {
+    "lat": 51.4235,
+    "lng": -0.2171
+  },
+  "Q4772922": {
+    "bornIn": "Wimbledon",
+    "bornInLat": 51.4235,
+    "bornInLng": -0.2171
+  },
+  "Q8660": {
+    "bornIn": "Karachi",
+    "bornInLat": 24.86,
+    "bornInLng": 67.01
+  },
+  "Karachi": {
+    "lat": 24.86,
+    "lng": 67.01
+  },
+  "Q269202": {
+    "bornIn": "Karachi",
+    "bornInLat": 24.86,
+    "bornInLng": 67.01
+  },
+  "Q5135212": {
+    "bornIn": "Close House",
+    "bornInLat": 54.6482,
+    "bornInLng": -1.6409
+  },
+  "Close House": {
+    "lat": 54.6482,
+    "lng": -1.6409
+  },
+  "Q6254461": {
+    "bornIn": "Close House",
+    "bornInLat": 54.6482,
+    "bornInLng": -1.6409
+  },
+  "Q1342": {
+    "bornIn": "Pittsburgh",
+    "bornInLat": 40.44166666666667,
+    "bornInLng": -80
+  },
+  "Pittsburgh": {
+    "lat": 40.44166666666667,
+    "lng": -80
+  },
+  "Q963059": {
+    "bornIn": "Pittsburgh",
+    "bornInLat": 40.44166666666667,
+    "bornInLng": -80
+  },
+  "Q3951975": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q4910951": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q934987": {
+    "bornIn": "Laurel",
+    "bornInLat": 31.6975,
+    "bornInLng": -89.139444444444
+  },
+  "Laurel": {
+    "lat": 31.6975,
+    "lng": -89.139444444444
+  },
+  "Q233718": {
+    "bornIn": "Laurel",
+    "bornInLat": 31.6975,
+    "bornInLng": -89.139444444444
+  },
+  "Q1287512": {
+    "bornIn": "Ipswich",
+    "bornInLat": 52.059444444444,
+    "bornInLng": 1.1555555555556
+  },
+  "Q2198178": {
+    "bornIn": "Halewood",
+    "bornInLat": 53.3599,
+    "bornInLng": -2.84
+  },
+  "Halewood": {
+    "lat": 53.3599,
+    "lng": -2.84
+  },
+  "Q273679": {
+    "bornIn": "Halewood",
+    "bornInLat": 53.3599,
+    "bornInLng": -2.84
+  },
+  "Q507517": {
+    "bornIn": "Rochester",
+    "bornInLat": 51.38764,
+    "bornInLng": 0.50546
+  },
+  "Rochester": {
+    "lat": 51.38764,
+    "lng": 0.50546
+  },
+  "Q715904": {
+    "bornIn": "Rochester",
+    "bornInLat": 51.38764,
+    "bornInLng": 0.50546
+  },
+  "Q41262": {
+    "bornIn": "Nottingham",
+    "bornInLat": 52.955,
+    "bornInLng": -1.1491666666667
+  },
+  "Nottingham": {
+    "lat": 52.955,
+    "lng": -1.1491666666667
+  },
+  "Q1557763": {
+    "bornIn": "Nottingham",
+    "bornInLat": 52.955,
+    "bornInLng": -1.1491666666667
+  },
+  "Q59672": {
+    "bornIn": "Bath",
+    "bornInLat": 51.381388888888885,
+    "bornInLng": -2.359722222222222
+  },
+  "Q21594951": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q7352738": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q285778": {
+    "bornIn": "Datchet",
+    "bornInLat": 51.4841,
+    "bornInLng": -0.5762
+  },
+  "Datchet": {
+    "lat": 51.4841,
+    "lng": -0.5762
+  },
+  "Q348826": {
+    "bornIn": "Datchet",
+    "bornInLat": 51.4841,
+    "bornInLng": -0.5762
+  },
+  "Q313588": {
+    "bornIn": "Wimbledon",
+    "bornInLat": 51.4235,
+    "bornInLng": -0.2171
+  },
+  "Q671348": {
+    "bornIn": "Worthing",
+    "bornInLat": 50.814711111111,
+    "bornInLng": -0.37138611111111
+  },
+  "Worthing": {
+    "lat": 50.814711111111,
+    "lng": -0.37138611111111
+  },
+  "Q7117303": {
+    "bornIn": "Worthing",
+    "bornInLat": 50.814711111111,
+    "bornInLng": -0.37138611111111
+  },
+  "Q23140": {
+    "bornIn": "Warwickshire",
+    "bornInLat": 52.333333333333,
+    "bornInLng": -1.5833333333333
+  },
+  "Warwickshire": {
+    "lat": 52.333333333333,
+    "lng": -1.5833333333333
+  },
+  "Q17525454": {
+    "bornIn": "Warwickshire",
+    "bornInLat": 52.333333333333,
+    "bornInLng": -1.5833333333333
+  },
+  "Q167464": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q192240": {
+    "bornIn": "Northampton",
+    "bornInLat": 52.233333333333,
+    "bornInLng": -0.9
+  },
+  "Northampton": {
+    "lat": 52.233333333333,
+    "lng": -0.9
+  },
+  "Q664385": {
+    "bornIn": "Northampton",
+    "bornInLat": 52.233333333333,
+    "bornInLng": -0.9
+  },
+  "Q4893204": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q5387508": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q3130": {
+    "bornIn": "Sydney",
+    "bornInLat": -33.867777777777775,
+    "bornInLng": 151.21
+  },
+  "Sydney": {
+    "lat": -33.867777777777775,
+    "lng": 151.21
+  },
+  "Q644392": {
+    "bornIn": "Sydney",
+    "bornInLat": -33.867777777777775,
+    "bornInLng": 151.21
+  },
+  "Q123634": {
+    "bornIn": "Marylebone",
+    "bornInLat": 51.5177,
+    "bornInLng": -0.147
+  },
+  "Marylebone": {
+    "lat": 51.5177,
+    "lng": -0.147
+  },
+  "Q505274": {
+    "bornIn": "Marylebone",
+    "bornInLat": 51.5177,
+    "bornInLng": -0.147
+  },
+  "Q922969": {
+    "bornIn": "Bath",
+    "bornInLat": 51.381388888888885,
+    "bornInLng": -2.359722222222222
+  },
+  "Q72259": {
+    "bornIn": "Portsmouth",
+    "bornInLat": 50.805833333333,
+    "bornInLng": -1.0872222222222
+  },
+  "Portsmouth": {
+    "lat": 50.805833333333,
+    "lng": -1.0872222222222
+  },
+  "Q1388210": {
+    "bornIn": "Portsmouth",
+    "bornInLat": 50.805833333333,
+    "bornInLng": -1.0872222222222
+  },
+  "Q313758": {
+    "bornIn": "Coventry",
+    "bornInLat": 52.416666666667,
+    "bornInLng": -1.5166666666667
+  },
+  "Q234178": {
+    "bornIn": "Bangor",
+    "bornInLat": 53.228,
+    "bornInLng": -4.128
+  },
+  "Bangor": {
+    "lat": 53.228,
+    "lng": -4.128
+  },
+  "Q3101615": {
+    "bornIn": "Bangor",
+    "bornInLat": 53.228,
+    "bornInLng": -4.128
+  },
+  "Q192896": {
+    "bornIn": "Carlisle",
+    "bornInLat": 54.89472222222222,
+    "bornInLng": -2.9363888888888887
+  },
+  "Carlisle": {
+    "lat": 54.89472222222222,
+    "lng": -2.9363888888888887
+  },
+  "Q336881": {
+    "bornIn": "Carlisle",
+    "bornInLat": 54.89472222222222,
+    "bornInLng": -2.9363888888888887
+  },
+  "Q6896690": {
+    "bornIn": "Glasgow",
+    "bornInLat": 55.861111111111114,
+    "bornInLng": -4.25
+  },
+  "Q726321": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q5125292": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q43382": {
+    "bornIn": "Plymouth",
+    "bornInLat": 50.37138888888889,
+    "bornInLng": -4.142222222222222
+  },
+  "Plymouth": {
+    "lat": 50.37138888888889,
+    "lng": -4.142222222222222
+  },
+  "Q7976619": {
+    "bornIn": "Plymouth",
+    "bornInLat": 50.37138888888889,
+    "bornInLng": -4.142222222222222
+  },
+  "Q655874": {
+    "bornIn": "Newbury",
+    "bornInLat": 51.4009,
+    "bornInLng": -1.3235
+  },
+  "Newbury": {
+    "lat": 51.4009,
+    "lng": -1.3235
+  },
+  "Q313289": {
+    "bornIn": "Newbury",
+    "bornInLat": 51.4009,
+    "bornInLng": -1.3235
+  },
+  "Q4706692": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q202088": {
+    "bornIn": "London Borough of Camden",
+    "bornInLat": 51.54277777777778,
+    "bornInLng": -0.15944444444444444
+  },
+  "London Borough of Camden": {
+    "lat": 51.54277777777778,
+    "lng": -0.15944444444444444
+  },
+  "Q55796": {
+    "bornIn": "London Borough of Camden",
+    "bornInLat": 51.54277777777778,
+    "bornInLng": -0.15944444444444444
+  },
+  "Q598029": {
+    "bornIn": "Manchester",
+    "bornInLat": 53.466666666667,
+    "bornInLng": -2.2333333333333
+  },
+  "Q38022": {
+    "bornIn": "St. Louis",
+    "bornInLat": 38.62638888888889,
+    "bornInLng": -90.19944444444444
+  },
+  "St. Louis": {
+    "lat": 38.62638888888889,
+    "lng": -90.19944444444444
+  },
+  "Q451180": {
+    "bornIn": "St. Louis",
+    "bornInLat": 38.62638888888889,
+    "bornInLng": -90.19944444444444
+  },
+  "Q1586685": {
+    "bornIn": "Bangor",
+    "bornInLat": 53.228,
+    "bornInLng": -4.128
+  },
+  "Q23105": {
+    "bornIn": "Staffordshire",
+    "bornInLat": 52.80694444444445,
+    "bornInLng": -2.116111111111111
+  },
+  "Staffordshire": {
+    "lat": 52.80694444444445,
+    "lng": -2.116111111111111
+  },
+  "Q2440214": {
+    "bornIn": "Staffordshire",
+    "bornInLat": 52.80694444444445,
+    "bornInLng": -2.116111111111111
+  },
+  "Q10690": {
+    "bornIn": "Cardiff",
+    "bornInLat": 51.48166666666667,
+    "bornInLng": -3.1791666666666667
+  },
+  "Cardiff": {
+    "lat": 51.48166666666667,
+    "lng": -3.1791666666666667
+  },
+  "Q436693": {
+    "bornIn": "Cardiff",
+    "bornInLat": 51.48166666666667,
+    "bornInLng": -3.1791666666666667
+  },
+  "Q5006115": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q6104731": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q125163": {
+    "bornIn": "Islington",
+    "bornInLat": 51.544,
+    "bornInLng": -0.1027
+  },
+  "Islington": {
+    "lat": 51.544,
+    "lng": -0.1027
+  },
+  "Q333392": {
+    "bornIn": "Islington",
+    "bornInLat": 51.544,
+    "bornInLng": -0.1027
+  },
+  "Q22": {
+    "bornIn": "Scotland",
+    "bornInLat": 57,
+    "bornInLng": -5
+  },
+  "Scotland": {
+    "lat": 57,
+    "lng": -5
+  },
+  "Q20707738": {
+    "bornIn": "Scotland",
+    "bornInLat": 57,
+    "bornInLng": -5
+  },
+  "Q7129150": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q83786": {
+    "bornIn": "Shimla",
+    "bornInLat": 31.103333333333,
+    "bornInLng": 77.172222222222
+  },
+  "Shimla": {
+    "lat": 31.103333333333,
+    "lng": 77.172222222222
+  },
+  "Q1385145": {
+    "bornIn": "Shimla",
+    "bornInLat": 31.103333333333,
+    "bornInLng": 77.172222222222
+  },
+  "Q6721425": {
+    "bornIn": "London",
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q17414578": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q17414590": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q17414607": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q513768": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q635906": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q7978898": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q8054756": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q26118": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q530921": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q434100": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q946210": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q4216803": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q188389": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q7850744": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q5341978": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q913084": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q235299": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q366624": {
+    "bornIn": "Weybridge",
+    "bornInLat": 51.366666666667,
+    "bornInLng": -0.46666666666667
+  },
+  "Q558513": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q370293": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q156552": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q17505827": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q232876": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q1347150": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q325700": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q939125": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q17512824": {
+    "bornIn": "Surrey",
+    "bornInLat": 51.25,
+    "bornInLng": -0.45
+  },
+  "Q1999699": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Q1207735": {
+    "bornIn": "Tokyo City",
+    "bornInLat": 35.67666667,
+    "bornInLng": 139.76472222
+  },
+  "Tokyo City": {
+    "lat": 35.67666667,
+    "lng": 139.76472222
+  },
+  "Q134902": {
+    "bornIn": "Stoke-on-Trent",
+    "bornInLat": 53,
+    "bornInLng": -2.1833333333333
+  },
+  "Stoke-on-Trent": {
+    "lat": 53,
+    "lng": -2.1833333333333
+  },
+  "Q1343804": {
+    "bornIn": "Stoke-on-Trent",
+    "bornInLat": 53,
+    "bornInLng": -2.1833333333333
+  },
+  "Q83065": {
+    "bornIn": "Leicester",
+    "bornInLat": 52.63611111111111,
+    "bornInLng": -1.1330555555555555
+  },
+  "Leicester": {
+    "lat": 52.63611111111111,
+    "lng": -1.1330555555555555
+  },
+  "Q2297044": {
+    "bornIn": "Ilford",
+    "bornInLat": 51.5575,
+    "bornInLng": 0.08583333333333334
+  },
+  "Ilford": {
+    "lat": 51.5575,
+    "lng": 0.08583333333333334
+  },
+  "Q961893": {
+    "bornInLat": 40.71277777777778,
+    "bornInLng": -74.00611111111111
+  },
+  "Q1775244": {
+    "bornIn": "Attleboro",
+    "bornInLat": 41.944444444444,
+    "bornInLng": -71.286111111111
+  },
+  "Attleboro": {
+    "lat": 41.944444444444,
+    "lng": -71.286111111111
+  },
+  "Q985648": {
+    "bornIn": "Columbus",
+    "bornInLat": 33.501666666667,
+    "bornInLng": -88.415
+  },
+  "Columbus": {
+    "lat": 33.501666666667,
+    "lng": -88.415
+  },
+  "Q39840": {
+    "bornIn": "Cadegliano Viconago",
+    "bornInLat": 45.966666666667,
+    "bornInLng": 8.8333333333333
+  },
+  "Cadegliano Viconago": {
+    "lat": 45.966666666667,
+    "lng": 8.8333333333333
+  },
+  "Q733178": {
+    "bornIn": "Stainton",
+    "bornInLat": 53.437,
+    "bornInLng": -1.168
+  },
+  "Stainton": {
+    "lat": 53.437,
+    "lng": -1.168
+  },
+  "Q34647": {
+    "bornIn": "Johannesburg",
+    "bornInLat": -26.204361111111,
+    "bornInLng": 28.041638888889
+  },
+  "Johannesburg": {
+    "lat": -26.204361111111,
+    "lng": 28.041638888889
+  },
+  "Q1009221": {
+    "bornIn": "Oswestry",
+    "bornInLat": 52.8598,
+    "bornInLng": -3.0538
+  },
+  "Oswestry": {
+    "lat": 52.8598,
+    "lng": -3.0538
+  },
+  "Q6014": {
+    "bornIn": "Barnaul",
+    "bornInLat": 53.356666666667,
+    "bornInLng": 83.787222222222
+  },
+  "Barnaul": {
+    "lat": 53.356666666667,
+    "lng": 83.787222222222
+  },
+  "Q21": {
+    "bornIn": "England",
+    "bornInLat": 53,
+    "bornInLng": -1
+  },
+  "England": {
+    "lat": 53,
+    "lng": -1
+  },
+  "Q6152315": {
+    "bornIn": "England",
+    "bornInLat": 53,
+    "bornInLng": -1
+  },
+  "Q991279": {
+    "bornIn": "Brownsville",
+    "bornInLat": 40.660652777778,
+    "bornInLng": -73.910780555556
+  },
+  "Brownsville": {
+    "lat": 40.660652777778,
+    "lng": -73.910780555556
+  },
+  "Q104266": {
+    "bornIn": "Brownsville",
+    "bornInLat": 40.660652777778,
+    "bornInLng": -73.910780555556
+  },
+  "Q36405": {
+    "bornIn": "Aberdeen",
+    "bornInLat": 57.15,
+    "bornInLng": -2.1
+  },
+  "Aberdeen": {
+    "lat": 57.15,
+    "lng": -2.1
+  },
+  "Q1368969": {
+    "bornIn": "Leytonstone",
+    "bornInLat": 51.569,
+    "bornInLng": 0.01
+  },
+  "Leytonstone": {
+    "lat": 51.569,
+    "lng": 0.01
+  },
+  "Q171866": {
+    "bornIn": "Middlesbrough",
+    "bornInLat": 54.573888888889,
+    "bornInLng": -1.2333333333333
+  },
+  "Middlesbrough": {
+    "lat": 54.573888888889,
+    "lng": -1.2333333333333
+  },
+  "Q34217": {
+    "bornIn": "Oxford",
+    "bornInLat": 51.751944444444,
+    "bornInLng": -1.2577777777778
+  },
+  "Oxford": {
+    "lat": 51.751944444444,
+    "lng": -1.2577777777778
+  },
+  "Q514975": {
+    "bornIn": "Oxford",
+    "bornInLat": 51.751944444444,
+    "bornInLng": -1.2577777777778
+  },
+  "Q90": {
+    "bornIn": "Paris",
+    "bornInLat": 48.85666666666667,
+    "bornInLng": 2.352222222222222
+  },
+  "Paris": {
+    "lat": 48.85666666666667,
+    "lng": 2.352222222222222
+  },
+  "Q33935": {
+    "bornIn": "Tel Aviv",
+    "bornInLat": 32.08,
+    "bornInLng": 34.78
+  },
+  "Tel Aviv": {
+    "lat": 32.08,
+    "lng": 34.78
+  },
+  "Q184090": {
+    "bornIn": "Preston",
+    "bornInLat": 53.759444444444,
+    "bornInLng": -2.6980555555556
+  },
+  "Preston": {
+    "lat": 53.759444444444,
+    "lng": -2.6980555555556
+  },
+  "Q5147609": {
+    "bornIn": "Collyhurst",
+    "bornInLat": 53.4967,
+    "bornInLng": -2.21785
+  },
+  "Collyhurst": {
+    "lat": 53.4967,
+    "lng": -2.21785
+  },
+  "Q7088768": {
+    "bornIn": "Olton",
+    "bornInLat": 52.4377,
+    "bornInLng": -1.8058
+  },
+  "Olton": {
+    "lat": 52.4377,
+    "lng": -1.8058
+  },
+  "Q845015": {
+    "bornIn": "Chiswick",
+    "bornInLat": 51.4925,
+    "bornInLng": -0.2633
+  },
+  "Chiswick": {
+    "lat": 51.4925,
+    "lng": -0.2633
+  },
+  "Q464955": {
+    "bornIn": "Windsor",
+    "bornInLat": 51.483333333333,
+    "bornInLng": -0.6
+  },
+  "Windsor": {
+    "lat": 51.483333333333,
+    "lng": -0.6
+  },
+  "Q1273191": {
+    "bornIn": "Windsor",
+    "bornInLat": 51.483333333333,
+    "bornInLng": -0.6
+  },
+  "Q846683": {
+    "bornIn": "Grantham",
+    "bornInLat": 52.918055555556,
+    "bornInLng": -0.63805555555556
+  },
+  "Grantham": {
+    "lat": 52.918055555556,
+    "lng": -0.63805555555556
+  },
+  "Q124230": {
+    "bornIn": "Paddington",
+    "bornInLat": 51.5172,
+    "bornInLng": -0.173
+  },
+  "Paddington": {
+    "lat": 51.5172,
+    "lng": -0.173
+  },
+  "Q4706414": {
+    "bornIn": "Paddington",
+    "bornInLat": 51.5172,
+    "bornInLng": -0.173
+  },
+  "Q87": {
+    "bornIn": "Alexandria",
+    "bornInLat": 31.1975,
+    "bornInLng": 29.8925
+  },
+  "Alexandria": {
+    "lat": 31.1975,
+    "lng": 29.8925
+  },
+  "Q7080139": {
+    "bornIn": "Ogmore Vale",
+    "bornInLat": 51.603027777778,
+    "bornInLng": -3.5467
+  },
+  "Ogmore Vale": {
+    "lat": 51.603027777778,
+    "lng": -3.5467
+  },
+  "Q54961": {
+    "bornIn": "Harrow",
+    "bornInLat": 51.5836,
+    "bornInLng": -0.3464
+  },
+  "Harrow": {
+    "lat": 51.5836,
+    "lng": -0.3464
+  },
+  "Q23103": {
+    "bornIn": "Shropshire",
+    "bornInLat": 52.616666666667,
+    "bornInLng": -2.7166666666667
+  },
+  "Shropshire": {
+    "lat": 52.616666666667,
+    "lng": -2.7166666666667
+  },
+  "Q17537151": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q279": {
+    "bornIn": "Modena",
+    "bornInLat": 44.64582,
+    "bornInLng": 10.92572
+  },
+  "Modena": {
+    "lat": 44.64582,
+    "lng": 10.92572
+  },
+  "Q2807": {
+    "bornIn": "Madrid",
+    "bornInLat": 40.41694444444445,
+    "bornInLng": -3.703333333333333
+  },
+  "Madrid": {
+    "lat": 40.41694444444445,
+    "lng": -3.703333333333333
+  },
+  "Q6765585": {
+    "bornIn": "Madrid",
+    "bornInLat": 40.41694444444445,
+    "bornInLng": -3.703333333333333
+  },
+  "Q377975": {
+    "bornIn": "Maryborough",
+    "bornInLat": -25.5375,
+    "bornInLng": 152.70194444444
+  },
+  "Maryborough": {
+    "lat": -25.5375,
+    "lng": 152.70194444444
+  },
+  "Q1052658": {
+    "bornIn": "Jamestown",
+    "bornInLat": 46.910555555555554,
+    "bornInLng": -98.70844444444444
+  },
+  "Jamestown": {
+    "lat": 46.910555555555554,
+    "lng": -98.70844444444444
+  },
+  "Q1764": {
+    "bornIn": "Reykjavík",
+    "bornInLat": 64.1475,
+    "bornInLng": -21.935
+  },
+  "Reykjavík": {
+    "lat": 64.1475,
+    "lng": -21.935
+  },
+  "Q970527": {
+    "bornIn": "Weatherford",
+    "bornInLat": 32.759166666667,
+    "bornInLng": -97.785
+  },
+  "Weatherford": {
+    "lat": 32.759166666667,
+    "lng": -97.785
+  },
+  "Q1780": {
+    "bornIn": "Bratislava",
+    "bornInLat": 48.144722222222,
+    "bornInLng": 17.112777777778
+  },
+  "Bratislava": {
+    "lat": 48.144722222222,
+    "lng": 17.112777777778
+  },
+  "Q3311985": {
+    "bornIn": "Guernsey",
+    "bornInLat": 49.4558,
+    "bornInLng": -2.5775
+  },
+  "Guernsey": {
+    "lat": 49.4558,
+    "lng": -2.5775
+  },
+  "Q457010": {
+    "bornInLat": 52.516666666667,
+    "bornInLng": 13.383333333333
+  },
+  "Q3891562": {
+    "bornIn": "Wayne",
+    "bornInLat": 40.043888888889,
+    "bornInLng": -75.387777777778
+  },
+  "Wayne": {
+    "lat": 40.043888888889,
+    "lng": -75.387777777778
+  },
+  "Q23298": {
+    "bornIn": "Kent",
+    "bornInLat": 51.19,
+    "bornInLng": 0.73
+  },
+  "Kent": {
+    "lat": 51.19,
+    "lng": 0.73
+  },
+  "Q2077666": {
+    "bornIn": "Kent",
+    "bornInLat": 51.19,
+    "bornInLng": 0.73
+  },
+  "Q35381": {
+    "bornIn": "Colombo",
+    "bornInLat": 6.926666666666667,
+    "bornInLng": 79.86055555555555
+  },
+  "Colombo": {
+    "lat": 6.926666666666667,
+    "lng": 79.86055555555555
+  },
+  "Q15070130": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q54145": {
+    "bornIn": "Medford",
+    "bornInLat": 42.418333333333,
+    "bornInLng": -71.106666666667
+  },
+  "Medford": {
+    "lat": 42.418333333333,
+    "lng": -71.106666666667
+  },
+  "Q1616042": {
+    "bornIn": "Hessle",
+    "bornInLat": 53.7239,
+    "bornInLng": -0.4319
+  },
+  "Hessle": {
+    "lat": 53.7239,
+    "lng": -0.4319
+  },
+  "Q2197883": {
+    "bornIn": "Hessle",
+    "bornInLat": 53.7239,
+    "bornInLng": -0.4319
+  },
+  "Q835304": {
+    "bornIn": "Wainwright",
+    "bornInLat": 52.833333333333336,
+    "bornInLng": -110.86666666666666
+  },
+  "Wainwright": {
+    "lat": 52.833333333333336,
+    "lng": -110.86666666666666
+  },
+  "Q2124953": {
+    "bornIn": "Frant",
+    "bornInLat": 51.1,
+    "bornInLng": 0.27
+  },
+  "Frant": {
+    "lat": 51.1,
+    "lng": 0.27
+  },
+  "Q1007011": {
+    "bornIn": "Downers Grove",
+    "bornInLat": 41.7947,
+    "bornInLng": -88.0169
+  },
+  "Downers Grove": {
+    "lat": 41.7947,
+    "lng": -88.0169
+  },
+  "Q199797": {
+    "bornIn": "Tacoma",
+    "bornInLat": 47.2525,
+    "bornInLng": -122.4475
+  },
+  "Tacoma": {
+    "lat": 47.2525,
+    "lng": -122.4475
+  },
+  "Q880986": {
+    "bornIn": "Blackwood",
+    "bornInLat": 51.67,
+    "bornInLng": -3.19
+  },
+  "Blackwood": {
+    "lat": 51.67,
+    "lng": -3.19
+  },
+  "Q254781": {
+    "bornIn": "Blackwood",
+    "bornInLat": 51.67,
+    "bornInLng": -3.19
+  },
+  "Q2664179": {
+    "bornIn": "Bargoed",
+    "bornInLat": 51.6851018,
+    "bornInLng": -3.2296591
+  },
+  "Bargoed": {
+    "lat": 51.6851018,
+    "lng": -3.2296591
+  },
+  "Q216638": {
+    "bornIn": "Wakefield",
+    "bornInLat": 53.6825,
+    "bornInLng": -1.4975
+  },
+  "Wakefield": {
+    "lat": 53.6825,
+    "lng": -1.4975
+  },
+  "Q2959779": {
+    "bornIn": "Wakefield",
+    "bornInLat": 53.6825,
+    "bornInLng": -1.4975
+  },
+  "Q746718": {
+    "bornIn": "Birkenhead",
+    "bornInLat": 53.383333333333,
+    "bornInLng": -3.0166666666667
+  },
+  "Birkenhead": {
+    "lat": 53.383333333333,
+    "lng": -3.0166666666667
+  },
+  "Q3553712": {
+    "bornIn": "Birkenhead",
+    "bornInLat": 53.383333333333,
+    "bornInLng": -3.0166666666667
+  },
+  "Q2424760": {
+    "bornIn": "Mostyn",
+    "bornInLat": 53.314,
+    "bornInLng": -3.269
+  },
+  "Mostyn": {
+    "lat": 53.314,
+    "lng": -3.269
+  },
+  "Q5200852": {
+    "bornInLat": 53.466666666667,
+    "bornInLng": -2.2333333333333
+  },
+  "Q933070": {
+    "bornInLat": 52.4948994,
+    "bornInLng": -1.8518439
+  },
+  "Q350": {
+    "bornIn": "Cambridge",
+    "bornInLat": 52.1975846,
+    "bornInLng": 0.1391537
+  },
+  "Q7188523": {
+    "bornIn": "Cambridge",
+    "bornInLat": 52.1975846,
+    "bornInLng": 0.1391537
+  },
+  "Q5446245": {
+    "bornIn": null,
+    "bornInLat": 53.3304,
+    "bornInLng": -3.3004
+  },
+  "null": {
+    "lat": 53.3304,
+    "lng": -3.3004
+  },
+  "Q7106681": {
+    "bornIn": null,
+    "bornInLat": 53.3304,
+    "bornInLng": -3.3004
+  },
+  "Q23436": {
+    "bornIn": "Edinburgh",
+    "bornInLat": 55.95333333333333,
+    "bornInLng": -3.1891666666666665
+  },
+  "Edinburgh": {
+    "lat": 55.95333333333333,
+    "lng": -3.1891666666666665
+  },
+  "Q530622": {
+    "bornIn": "Edinburgh",
+    "bornInLat": 55.95333333333333,
+    "bornInLng": -3.1891666666666665
+  },
+  "Q208201": {
+    "bornIn": "London Borough of Bromley",
+    "bornInLat": 51.404444444444,
+    "bornInLng": 0.02
+  },
+  "London Borough of Bromley": {
+    "lat": 51.404444444444,
+    "lng": 0.02
+  },
+  "Q4775603": {
+    "bornIn": "London Borough of Bromley",
+    "bornInLat": 51.404444444444,
+    "bornInLng": 0.02
+  },
+  "Q156125": {
+    "bornIn": "Larvik",
+    "bornInLat": 59.05328,
+    "bornInLng": 10.03517
+  },
+  "Larvik": {
+    "lat": 59.05328,
+    "lng": 10.03517
+  },
+  "Q16554": {
+    "bornIn": "Denver",
+    "bornInLat": 39.739166666667,
+    "bornInLng": -104.98472222222
+  },
+  "Denver": {
+    "lat": 39.739166666667,
+    "lng": -104.98472222222
+  },
+  "Q6223351": {
+    "bornInLat": 51.47,
+    "bornInLng": 0.009
+  },
+  "Q727": {
+    "bornIn": "Amsterdam",
+    "bornInLat": 52.36666666666667,
+    "bornInLng": 4.883333333333333
+  },
+  "Amsterdam": {
+    "lat": 52.36666666666667,
+    "lng": 4.883333333333333
+  },
+  "Q2833232": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q719339": {
+    "bornIn": "Szőreg",
+    "bornInLat": 46.2128,
+    "bornInLng": 20.1939
+  },
+  "Szőreg": {
+    "lat": 46.2128,
+    "lng": 20.1939
+  },
+  "Q665743": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q959584": {
+    "bornIn": "Nevada",
+    "bornInLat": 37.83811111111111,
+    "bornInLng": -94.35961111111111
+  },
+  "Nevada": {
+    "lat": 37.83811111111111,
+    "lng": -94.35961111111111
+  },
+  "Q5338516": {
+    "bornInLat": 53.25,
+    "bornInLng": -0.55
+  },
+  "Q101254": {
+    "bornIn": "Newport",
+    "bornInLat": 51.58861111111111,
+    "bornInLng": -2.997777777777778
+  },
+  "Newport": {
+    "lat": 51.58861111111111,
+    "lng": -2.997777777777778
+  },
+  "Q3403159": {
+    "bornIn": "Newport",
+    "bornInLat": 51.58861111111111,
+    "bornInLng": -2.997777777777778
+  },
+  "Q139712": {
+    "bornInLat": 52.134444444444,
+    "bornInLng": -0.46305555555556
+  },
+  "Q4955105": {
+    "bornInLat": 53.423,
+    "bornInLng": -3.065
+  },
+  "Q17516061": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q962126": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q2777749": {
+    "bornIn": "Summer Hill",
+    "bornInLat": -33.89,
+    "bornInLng": 151.1386111
+  },
+  "Summer Hill": {
+    "lat": -33.89,
+    "lng": 151.1386111
+  },
+  "Q7352106": {
+    "bornInLat": 51.544,
+    "bornInLng": -0.1027
+  },
+  "Q4375776": {
+    "bornIn": "Barton Seagrave",
+    "bornInLat": 52.3792,
+    "bornInLng": -0.6939
+  },
+  "Barton Seagrave": {
+    "lat": 52.3792,
+    "lng": -0.6939
+  },
+  "Q273286": {
+    "bornIn": "Barton Seagrave",
+    "bornInLat": 52.3792,
+    "bornInLng": -0.6939
+  },
+  "Q169293": {
+    "bornIn": "11th arrondissement of Paris",
+    "bornInLat": 48.858677777778,
+    "bornInLng": 2.3793055555556
+  },
+  "11th arrondissement of Paris": {
+    "lat": 48.858677777778,
+    "lng": 2.3793055555556
+  },
+  "Q4725814": {
+    "bornIn": "11th arrondissement of Paris",
+    "bornInLat": 48.858677777778,
+    "bornInLng": 2.3793055555556
+  },
+  "Q849116": {
+    "bornIn": "Kremenets",
+    "bornInLat": 50.108055555556,
+    "bornInLng": 25.7275
+  },
+  "Kremenets": {
+    "lat": 50.108055555556,
+    "lng": 25.7275
+  },
+  "Q311317": {
+    "bornIn": "Kremenets",
+    "bornInLat": 50.108055555556,
+    "bornInLng": 25.7275
+  },
+  "Q200878": {
+    "bornIn": "Jabalpur",
+    "bornInLat": 23.166666666667,
+    "bornInLng": 79.933333333333
+  },
+  "Jabalpur": {
+    "lat": 23.166666666667,
+    "lng": 79.933333333333
+  },
+  "Q858775": {
+    "bornIn": "Dartford",
+    "bornInLat": 51.44444444444444,
+    "bornInLng": 0.21722222222222223
+  },
+  "Dartford": {
+    "lat": 51.44444444444444,
+    "lng": 0.21722222222222223
+  },
+  "Q17515958": {
+    "bornIn": "Dartford",
+    "bornInLat": 51.44444444444444,
+    "bornInLng": 0.21722222222222223
+  },
+  "Q580": {
+    "bornIn": "Łódź",
+    "bornInLat": 51.75,
+    "bornInLng": 19.466666666667
+  },
+  "Łódź": {
+    "lat": 51.75,
+    "lng": 19.466666666667
+  },
+  "Q183182": {
+    "bornIn": "Łódź",
+    "bornInLat": 51.75,
+    "bornInLng": 19.466666666667
+  },
+  "Q5764931": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q2224481": {
+    "bornIn": "Warrenpoint",
+    "bornInLat": 54.0991,
+    "bornInLng": -6.24899
+  },
+  "Warrenpoint": {
+    "lat": 54.0991,
+    "lng": -6.24899
+  },
+  "Q6687262": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q79980": {
+    "bornIn": "Varanasi",
+    "bornInLat": 25.318888888889,
+    "bornInLng": 83.012777777778
+  },
+  "Varanasi": {
+    "lat": 25.318888888889,
+    "lng": 83.012777777778
+  },
+  "Q23276": {
+    "bornIn": "Surrey",
+    "bornInLat": 51.25,
+    "bornInLng": -0.45
+  },
+  "Surrey": {
+    "lat": 51.25,
+    "lng": -0.45
+  },
+  "Q2485852": {
+    "bornIn": "Hayfield",
+    "bornInLat": 53.38,
+    "bornInLng": -1.94
+  },
+  "Hayfield": {
+    "lat": 53.38,
+    "lng": -1.94
+  },
+  "Q23346": {
+    "bornIn": "Sussex",
+    "bornInLat": 50.9471026998,
+    "bornInLng": -0.141372694746
+  },
+  "Sussex": {
+    "lat": 50.9471026998,
+    "lng": -0.141372694746
+  },
+  "Q4973417": {
+    "bornIn": "Sussex",
+    "bornInLat": 50.9471026998,
+    "bornInLng": -0.141372694746
+  },
+  "Q1045028": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q991055": {
+    "bornIn": "Milford Haven",
+    "bornInLat": 51.714180555556,
+    "bornInLng": -5.0427388888889
+  },
+  "Milford Haven": {
+    "lat": 51.714180555556,
+    "lng": -5.0427388888889
+  },
+  "Q468060": {
+    "bornIn": "Milford Haven",
+    "bornInLat": 51.714180555556,
+    "bornInLng": -5.0427388888889
+  },
+  "Q78602": {
+    "bornInLat": 48.208333333333336,
+    "bornInLng": 16.3725
+  },
+  "Q234184": {
+    "bornIn": "Chełm",
+    "bornInLat": 51.133333333333,
+    "bornInLng": 23.483333333333
+  },
+  "Chełm": {
+    "lat": 51.133333333333,
+    "lng": 23.483333333333
+  },
+  "Q240794": {
+    "bornIn": "Chełm",
+    "bornInLat": 51.133333333333,
+    "bornInLng": 23.483333333333
+  },
+  "Q5112": {
+    "bornIn": "Adelaide",
+    "bornInLat": -34.9275,
+    "bornInLng": 138.6
+  },
+  "Adelaide": {
+    "lat": -34.9275,
+    "lng": 138.6
+  },
+  "Q38380": {
+    "bornIn": "Angers",
+    "bornInLat": 47.472777777778,
+    "bornInLng": -0.55555555555556
+  },
+  "Angers": {
+    "lat": 47.472777777778,
+    "lng": -0.55555555555556
+  },
+  "Q447882": {
+    "bornIn": "Angers",
+    "bornInLat": 47.472777777778,
+    "bornInLng": -0.55555555555556
+  },
+  "Q17505767": {
+    "bornInLat": 55.95333333333333,
+    "bornInLng": -3.1891666666666665
+  },
+  "Q203380": {
+    "bornIn": "Napier",
+    "bornInLat": -39.49027777777778,
+    "bornInLng": 176.9177777777778
+  },
+  "Napier": {
+    "lat": -39.49027777777778,
+    "lng": 176.9177777777778
+  },
+  "Q2149230": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q15493054": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q2166182": {
+    "bornIn": "Roodepoort",
+    "bornInLat": -26.1625,
+    "bornInLng": 27.8725
+  },
+  "Roodepoort": {
+    "lat": -26.1625,
+    "lng": 27.8725
+  },
+  "Q279628": {
+    "bornIn": "Apfeltrach",
+    "bornInLat": 48.016666666667,
+    "bornInLng": 10.5
+  },
+  "Apfeltrach": {
+    "lat": 48.016666666667,
+    "lng": 10.5
+  },
+  "Q64381": {
+    "bornIn": "Apfeltrach",
+    "bornInLat": 48.016666666667,
+    "bornInLng": 10.5
+  },
+  "Q2223229": {
+    "bornIn": "Bourne",
+    "bornInLat": 52.7684,
+    "bornInLng": -0.3775
+  },
+  "Bourne": {
+    "lat": 52.7684,
+    "lng": -0.3775
+  },
+  "Q1856022": {
+    "bornIn": "Bourne",
+    "bornInLat": 52.7684,
+    "bornInLng": -0.3775
+  },
+  "Q7837340": {
+    "bornIn": "Trebanog",
+    "bornInLat": 51.601,
+    "bornInLng": -3.423
+  },
+  "Trebanog": {
+    "lat": 51.601,
+    "lng": -3.423
+  },
+  "Q6261226": {
+    "bornInLat": 51.4077,
+    "bornInLng": -0.022
+  },
+  "Q39121": {
+    "bornIn": "Leeds",
+    "bornInLat": 53.7975,
+    "bornInLng": -1.5436111111111113
+  },
+  "Leeds": {
+    "lat": 53.7975,
+    "lng": -1.5436111111111113
+  },
+  "Q7598786": {
+    "bornIn": "Leeds",
+    "bornInLat": 53.7975,
+    "bornInLng": -1.5436111111111113
+  },
+  "Q24603": {
+    "bornIn": "Independence",
+    "bornInLat": 39.0925,
+    "bornInLng": -94.41388888888889
+  },
+  "Independence": {
+    "lat": 39.0925,
+    "lng": -94.41388888888889
+  },
+  "Q478302": {
+    "bornIn": "Toowoomba",
+    "bornInLat": -27.55,
+    "bornInLng": 151.95
+  },
+  "Toowoomba": {
+    "lat": -27.55,
+    "lng": 151.95
+  },
+  "Q853012": {
+    "bornIn": "Bexhill-on-Sea",
+    "bornInLat": 50.84166666666667,
+    "bornInLng": 0.4711111111111111
+  },
+  "Bexhill-on-Sea": {
+    "lat": 50.84166666666667,
+    "lng": 0.4711111111111111
+  },
+  "Q17505486": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q4707510": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q217039": {
+    "bornIn": "Rotherham",
+    "bornInLat": 53.43,
+    "bornInLng": -1.3572222222222
+  },
+  "Rotherham": {
+    "lat": 53.43,
+    "lng": -1.3572222222222
+  },
+  "Q7417428": {
+    "bornIn": "Rotherham",
+    "bornInLat": 53.43,
+    "bornInLng": -1.3572222222222
+  },
+  "Q58900": {
+    "bornIn": "Doncaster",
+    "bornInLat": 53.522777777777776,
+    "bornInLng": -1.1325
+  },
+  "Doncaster": {
+    "lat": 53.522777777777776,
+    "lng": -1.1325
+  },
+  "Q13470": {
+    "bornIn": "Barletta",
+    "bornInLat": 41.316666666667,
+    "bornInLng": 16.283333333333
+  },
+  "Barletta": {
+    "lat": 41.316666666667,
+    "lng": 16.283333333333
+  },
+  "Q6470824": {
+    "bornIn": "Ladywood",
+    "bornInLat": 52.476,
+    "bornInLng": -1.918
+  },
+  "Ladywood": {
+    "lat": 52.476,
+    "lng": -1.918
+  },
+  "Q17451613": {
+    "bornIn": "Ladywood",
+    "bornInLat": 52.476,
+    "bornInLng": -1.918
+  },
+  "Q390564": {
+    "bornIn": "Hatton",
+    "bornInLat": 6.8897222222222,
+    "bornInLng": 80.598055555556
+  },
+  "Hatton": {
+    "lat": 6.8897222222222,
+    "lng": 80.598055555556
+  },
+  "Q1351654": {
+    "bornIn": "Hatton",
+    "bornInLat": 6.8897222222222,
+    "bornInLng": 80.598055555556
+  },
+  "Q1355": {
+    "bornIn": "Bengaluru",
+    "bornInLat": 12.9791198,
+    "bornInLng": 77.5912997
+  },
+  "Bengaluru": {
+    "lat": 12.9791198,
+    "lng": 77.5912997
+  },
+  "Q2982596": {
+    "bornIn": "Bengaluru",
+    "bornInLat": 12.9791198,
+    "bornInLng": 77.5912997
+  },
+  "Q168648": {
+    "bornIn": "Sopron",
+    "bornInLat": 47.683333333333,
+    "bornInLng": 16.583333333333
+  },
+  "Sopron": {
+    "lat": 47.683333333333,
+    "lng": 16.583333333333
+  },
+  "Q671431": {
+    "bornIn": "Prince Albert",
+    "bornInLat": 53.2,
+    "bornInLng": -105.75
+  },
+  "Prince Albert": {
+    "lat": 53.2,
+    "lng": -105.75
+  },
+  "Q49940": {
+    "bornIn": "Newark-on-Trent",
+    "bornInLat": 53.0765,
+    "bornInLng": -0.81
+  },
+  "Newark-on-Trent": {
+    "lat": 53.0765,
+    "lng": -0.81
+  },
+  "Q264954": {
+    "bornIn": "Newark-on-Trent",
+    "bornInLat": 53.0765,
+    "bornInLng": -0.81
+  },
+  "Q1754096": {
+    "bornIn": "Weybridge",
+    "bornInLat": 51.366666666667,
+    "bornInLng": -0.46666666666667
+  },
+  "Weybridge": {
+    "lat": 51.366666666667,
+    "lng": -0.46666666666667
+  },
+  "Q955565": {
+    "bornIn": "Fairbury",
+    "bornInLat": 40.140833333333,
+    "bornInLng": -97.1775
+  },
+  "Fairbury": {
+    "lat": 40.140833333333,
+    "lng": -97.1775
+  },
+  "Q1519942": {
+    "bornIn": "Bromham",
+    "bornInLat": 52.1454,
+    "bornInLng": -0.5298
+  },
+  "Bromham": {
+    "lat": 52.1454,
+    "lng": -0.5298
+  },
+  "Q1003502": {
+    "bornIn": "Secunderabad",
+    "bornInLat": 17.45,
+    "bornInLng": 78.5
+  },
+  "Secunderabad": {
+    "lat": 17.45,
+    "lng": 78.5
+  },
+  "Q2887395": {
+    "bornIn": "Bassendean",
+    "bornInLat": -31.905,
+    "bornInLng": 115.949
+  },
+  "Bassendean": {
+    "lat": -31.905,
+    "lng": 115.949
+  },
+  "Q1781": {
+    "bornIn": "Budapest",
+    "bornInLat": 47.498333333333,
+    "bornInLng": 19.040833333333
+  },
+  "Budapest": {
+    "lat": 47.498333333333,
+    "lng": 19.040833333333
+  },
+  "Q128085": {
+    "bornIn": "Budapest",
+    "bornInLat": 47.498333333333,
+    "bornInLng": 19.040833333333
+  },
+  "Q3496549": {
+    "bornIn": "Hurstville",
+    "bornInLat": -33.968111111111,
+    "bornInLng": 151.10408055556
+  },
+  "Hurstville": {
+    "lat": -33.968111111111,
+    "lng": 151.10408055556
+  },
+  "Q2125": {
+    "bornIn": "Hurstville",
+    "bornInLat": -33.968111111111,
+    "bornInLng": 151.10408055556
+  },
+  "Q126269": {
+    "bornIn": "Wolverhampton",
+    "bornInLat": 52.58416666666667,
+    "bornInLng": -2.125277777777778
+  },
+  "Wolverhampton": {
+    "lat": 52.58416666666667,
+    "lng": -2.125277777777778
+  },
+  "Q6525194": {
+    "bornIn": "Wolverhampton",
+    "bornInLat": 52.58416666666667,
+    "bornInLng": -2.125277777777778
+  },
+  "Q290356": {
+    "bornIn": "San Pedro",
+    "bornInLat": 33.74,
+    "bornInLng": -118.29
+  },
+  "San Pedro": {
+    "lat": 33.74,
+    "lng": -118.29
+  },
+  "Q1503615": {
+    "bornIn": "San Pedro",
+    "bornInLat": 33.74,
+    "bornInLng": -118.29
+  },
+  "Q2304617": {
+    "bornIn": "South Yarra",
+    "bornInLat": -37.84,
+    "bornInLng": 144.989
+  },
+  "South Yarra": {
+    "lat": -37.84,
+    "lng": 144.989
+  },
+  "Q7679021": {
+    "bornIn": "South Yarra",
+    "bornInLat": -37.84,
+    "bornInLng": 144.989
+  },
+  "Q15435598": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q1622949": {
+    "bornIn": "Accrington",
+    "bornInLat": 53.75337,
+    "bornInLng": -2.36384
+  },
+  "Accrington": {
+    "lat": 53.75337,
+    "lng": -2.36384
+  },
+  "Q5262243": {
+    "bornIn": "Accrington",
+    "bornInLat": 53.75337,
+    "bornInLng": -2.36384
+  },
+  "Q4161036": {
+    "bornInLat": 52.516666666667,
+    "bornInLng": 13.383333333333
+  },
+  "Q1538": {
+    "bornIn": "Pune",
+    "bornInLat": 18.52111111111111,
+    "bornInLng": 73.85527777777777
+  },
+  "Pune": {
+    "lat": 18.52111111111111,
+    "lng": 73.85527777777777
+  },
+  "Q17443082": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q27306": {
+    "bornIn": "Kingdom of Prussia",
+    "bornInLat": 53,
+    "bornInLng": 14
+  },
+  "Kingdom of Prussia": {
+    "lat": 53,
+    "lng": 14
+  },
+  "Q984998": {
+    "bornIn": "Ōtaki",
+    "bornInLat": -40.75833,
+    "bornInLng": 175.15
+  },
+  "Ōtaki": {
+    "lat": -40.75833,
+    "lng": 175.15
+  },
+  "Q15437713": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q64116": {
+    "bornIn": "High Wycombe",
+    "bornInLat": 51.621666666667,
+    "bornInLng": -0.75166666666667
+  },
+  "High Wycombe": {
+    "lat": 51.621666666667,
+    "lng": -0.75166666666667
+  },
+  "Q11973447": {
+    "bornIn": "High Wycombe",
+    "bornInLat": 51.621666666667,
+    "bornInLng": -0.75166666666667
+  },
+  "Q646445": {
+    "bornInLat": 53.407222222222224,
+    "bornInLng": -2.9916666666666667
+  },
+  "Q17856": {
+    "bornIn": "Ballarat",
+    "bornInLat": -37.560833333333335,
+    "bornInLng": 143.8475
+  },
+  "Ballarat": {
+    "lat": -37.560833333333335,
+    "lng": 143.8475
+  },
+  "Q578301": {
+    "bornIn": "Wilmette",
+    "bornInLat": 42.077222222222,
+    "bornInLng": -87.723611111111
+  },
+  "Wilmette": {
+    "lat": 42.077222222222,
+    "lng": -87.723611111111
+  },
+  "Q691685": {
+    "bornIn": "Kirkcaldy",
+    "bornInLat": 56.110730555556,
+    "bornInLng": -3.1673694444444
+  },
+  "Kirkcaldy": {
+    "lat": 56.110730555556,
+    "lng": -3.1673694444444
+  },
+  "Q3427442": {
+    "bornIn": "Kirkcaldy",
+    "bornInLat": 56.110730555556,
+    "bornInLng": -3.1673694444444
+  },
+  "Q2673601": {
+    "bornIn": "Adell",
+    "bornInLat": 43.618333333333,
+    "bornInLng": -87.951388888889
+  },
+  "Adell": {
+    "lat": 43.618333333333,
+    "lng": -87.951388888889
+  },
+  "Q7495481": {
+    "bornIn": "Sherwood",
+    "bornInLat": 52.983,
+    "bornInLng": -1.145
+  },
+  "Sherwood": {
+    "lat": 52.983,
+    "lng": -1.145
+  },
+  "Q5163578": {
+    "bornIn": "Sherwood",
+    "bornInLat": 52.983,
+    "bornInLng": -1.145
+  },
+  "Q1701614": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q2472406": {
+    "bornIn": "Ammanford",
+    "bornInLat": 51.8,
+    "bornInLng": -3.993
+  },
+  "Ammanford": {
+    "lat": 51.8,
+    "lng": -3.993
+  },
+  "Q17442758": {
+    "bornIn": "Ammanford",
+    "bornInLat": 51.8,
+    "bornInLng": -3.993
+  },
+  "Q26888": {
+    "bornIn": "London Borough of Croydon",
+    "bornInLat": 51.371111111111,
+    "bornInLng": -0.098888888888889
+  },
+  "London Borough of Croydon": {
+    "lat": 51.371111111111,
+    "lng": -0.098888888888889
+  },
+  "Q6796120": {
+    "bornIn": "London Borough of Croydon",
+    "bornInLat": 51.371111111111,
+    "bornInLng": -0.098888888888889
+  },
+  "Q428042": {
+    "bornInLat": 47.498333333333,
+    "bornInLng": 19.040833333333
+  },
+  "Q5568211": {
+    "bornIn": "Glenbuck",
+    "bornInLat": 55.5333,
+    "bornInLng": -3.98333
+  },
+  "Glenbuck": {
+    "lat": 55.5333,
+    "lng": -3.98333
+  },
+  "Q207457": {
+    "bornIn": "Glenbuck",
+    "bornInLat": 55.5333,
+    "bornInLng": -3.98333
+  },
+  "Q487554": {
+    "bornInLat": 59.95,
+    "bornInLng": 30.316666666667
+  },
+  "Q17674214": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q5542078": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q274120": {
+    "bornIn": "Niagara Falls",
+    "bornInLat": 43.116666666667,
+    "bornInLng": -79.066666666667
+  },
+  "Niagara Falls": {
+    "lat": 43.116666666667,
+    "lng": -79.066666666667
+  },
+  "Q7373102": {
+    "bornInLat": 53.466666666667,
+    "bornInLng": -2.2333333333333
+  },
+  "Q755507": {
+    "bornIn": "Atherton",
+    "bornInLat": -17.265555555556,
+    "bornInLng": 145.47416666667
+  },
+  "Atherton": {
+    "lat": -17.265555555556,
+    "lng": 145.47416666667
+  },
+  "Q6054881": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q1013261": {
+    "bornIn": "Fort Lee",
+    "bornInLat": 40.850833333333,
+    "bornInLng": -73.97
+  },
+  "Fort Lee": {
+    "lat": 40.850833333333,
+    "lng": -73.97
+  },
+  "Q1999512": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q997568": {
+    "bornIn": "Tulchyn",
+    "bornInLat": 48.674444444444,
+    "bornInLng": 28.849722222222
+  },
+  "Tulchyn": {
+    "lat": 48.674444444444,
+    "lng": 28.849722222222
+  },
+  "Q2046537": {
+    "bornIn": "Ashby-de-la-Zouch",
+    "bornInLat": 52.746,
+    "bornInLng": -1.476
+  },
+  "Ashby-de-la-Zouch": {
+    "lat": 52.746,
+    "lng": -1.476
+  },
+  "Q7308765": {
+    "bornIn": "Ashby-de-la-Zouch",
+    "bornInLat": 52.746,
+    "bornInLng": -1.476
+  },
+  "Q5119940": {
+    "bornIn": "Cilfynydd",
+    "bornInLat": 51.625,
+    "bornInLng": -3.32
+  },
+  "Cilfynydd": {
+    "lat": 51.625,
+    "lng": -3.32
+  },
+  "Q3103853": {
+    "bornIn": "Cilfynydd",
+    "bornInLat": 51.625,
+    "bornInLng": -3.32
+  },
+  "Q895929": {
+    "bornInLat": 51.47,
+    "bornInLng": 0.009
+  },
+  "Q171357": {
+    "bornIn": "Kecskemét",
+    "bornInLat": 46.9075,
+    "bornInLng": 19.691666666666666
+  },
+  "Kecskemét": {
+    "lat": 46.9075,
+    "lng": 19.691666666666666
+  },
+  "Q3353724": {
+    "bornIn": "Västra Karup",
+    "bornInLat": 56.411110244736,
+    "bornInLng": 12.739446148541
+  },
+  "Västra Karup": {
+    "lat": 56.411110244736,
+    "lng": 12.739446148541
+  },
+  "Q646225": {
+    "bornIn": "Woking",
+    "bornInLat": 51.316111111111,
+    "bornInLng": -0.56111111111111
+  },
+  "Woking": {
+    "lat": 51.316111111111,
+    "lng": -0.56111111111111
+  },
+  "Q3293957": {
+    "bornIn": "Woking",
+    "bornInLat": 51.316111111111,
+    "bornInLng": -0.56111111111111
+  },
+  "Q964322": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q191793": {
+    "bornIn": "Karviná",
+    "bornInLat": 49.854166666667,
+    "bornInLng": 18.542777777778
+  },
+  "Karviná": {
+    "lat": 49.854166666667,
+    "lng": 18.542777777778
+  },
+  "Q2269556": {
+    "bornIn": "Karviná",
+    "bornInLat": 49.854166666667,
+    "bornInLng": 18.542777777778
+  },
+  "Q37133": {
+    "bornIn": "Mariupol",
+    "bornInLat": 47.130555555556,
+    "bornInLng": 37.563888888889
+  },
+  "Mariupol": {
+    "lat": 47.130555555556,
+    "lng": 37.563888888889
+  },
+  "Q4723648": {
+    "bornIn": "Mariupol",
+    "bornInLat": 47.130555555556,
+    "bornInLng": 37.563888888889
+  },
+  "Q1000312": {
+    "bornIn": "Sandgate",
+    "bornInLat": 51.074,
+    "bornInLng": 1.1454
+  },
+  "Sandgate": {
+    "lat": 51.074,
+    "lng": 1.1454
+  },
+  "Q449020": {
+    "bornIn": "Sandgate",
+    "bornInLat": 51.074,
+    "bornInLng": 1.1454
+  },
+  "Q504114": {
+    "bornIn": "Guelph",
+    "bornInLat": 43.55,
+    "bornInLng": -80.25
+  },
+  "Guelph": {
+    "lat": 43.55,
+    "lng": -80.25
+  },
+  "Q2918677": {
+    "bornIn": "Waverley",
+    "bornInLat": -33.89833333333333,
+    "bornInLng": 151.2594444
+  },
+  "Waverley": {
+    "lat": -33.89833333333333,
+    "lng": 151.2594444
+  },
+  "Q200054": {
+    "bornIn": "Jamshedpur",
+    "bornInLat": 22.8,
+    "bornInLng": 86.183333333333
+  },
+  "Jamshedpur": {
+    "lat": 22.8,
+    "lng": 86.183333333333
+  },
+  "Q1086416": {
+    "bornIn": "Oradell",
+    "bornInLat": 40.955,
+    "bornInLng": -74.030833333333
+  },
+  "Oradell": {
+    "lat": 40.955,
+    "lng": -74.030833333333
+  },
+  "Q1023948": {
+    "bornIn": "Hebden Bridge",
+    "bornInLat": 53.742,
+    "bornInLng": -2.009
+  },
+  "Hebden Bridge": {
+    "lat": 53.742,
+    "lng": -2.009
+  },
+  "Q216": {
+    "bornIn": "Vilnius",
+    "bornInLat": 54.687222222222225,
+    "bornInLng": 25.28
+  },
+  "Vilnius": {
+    "lat": 54.687222222222225,
+    "lng": 25.28
+  },
+  "Q24639": {
+    "bornIn": "Vancouver",
+    "bornInLat": 49.26083333333333,
+    "bornInLng": -123.1138888888889
+  },
+  "Vancouver": {
+    "lat": 49.26083333333333,
+    "lng": -123.1138888888889
+  },
+  "Q34932": {
+    "bornIn": "Brisbane",
+    "bornInLat": -27.467777777778,
+    "bornInLng": 153.02777777778
+  },
+  "Brisbane": {
+    "lat": -27.467777777778,
+    "lng": 153.02777777778
+  },
+  "Q10686": {
+    "bornIn": "Belfast",
+    "bornInLat": 54.596666666666664,
+    "bornInLng": -5.93
+  },
+  "Belfast": {
+    "lat": 54.596666666666664,
+    "lng": -5.93
+  },
+  "Q262861": {
+    "bornIn": "Belfast",
+    "bornInLat": 54.596666666666664,
+    "bornInLng": -5.93
+  },
+  "Q3774": {
+    "bornIn": "Chillán",
+    "bornInLat": -36.6067,
+    "bornInLng": -72.1033
+  },
+  "Chillán": {
+    "lat": -36.6067,
+    "lng": -72.1033
+  },
+  "Q160223": {
+    "bornIn": "Chillán",
+    "bornInLat": -36.6067,
+    "bornInLng": -72.1033
+  },
+  "Q6307573": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q55": {
+    "bornIn": "Netherlands",
+    "bornInLat": 52.316666666667,
+    "bornInLng": 5.55
+  },
+  "Netherlands": {
+    "lat": 52.316666666667,
+    "lng": 5.55
+  },
+  "Q17431972": {
+    "bornIn": "Netherlands",
+    "bornInLat": 52.316666666667,
+    "bornInLng": 5.55
+  },
+  "Q1701310": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q5545127": {
+    "bornInLat": -33.867777777777775,
+    "bornInLng": 151.21
+  },
+  "Q498540": {
+    "bornIn": "Perleberg",
+    "bornInLat": 53.066666666667,
+    "bornInLng": 11.866666666667
+  },
+  "Perleberg": {
+    "lat": 53.066666666667,
+    "lng": 11.866666666667
+  },
+  "Q60303": {
+    "bornIn": "Perleberg",
+    "bornInLat": 53.066666666667,
+    "bornInLng": 11.866666666667
+  },
+  "Q1857563": {
+    "bornIn": "Oldbury",
+    "bornInLat": 52.505,
+    "bornInLng": -2.0159
+  },
+  "Oldbury": {
+    "lat": 52.505,
+    "lng": -2.0159
+  },
+  "Q1424209": {
+    "bornIn": "Oldbury",
+    "bornInLat": 52.505,
+    "bornInLng": -2.0159
+  },
+  "Q6796869": {
+    "bornIn": "Mayaro",
+    "bornInLat": 10.297861,
+    "bornInLng": -61.006737
+  },
+  "Mayaro": {
+    "lat": 10.297861,
+    "lng": -61.006737
+  },
+  "Q313554": {
+    "bornInLat": 52.233333333333,
+    "bornInLng": -0.9
+  },
+  "Q138518": {
+    "bornIn": "Princeton",
+    "bornInLat": 40.352222222222,
+    "bornInLng": -74.656944444444
+  },
+  "Princeton": {
+    "lat": 40.352222222222,
+    "lng": -74.656944444444
+  },
+  "Q52840": {
+    "bornIn": "Jarocin",
+    "bornInLat": 51.966666666667,
+    "bornInLng": 17.5
+  },
+  "Jarocin": {
+    "lat": 51.966666666667,
+    "lng": 17.5
+  },
+  "Q1027": {
+    "bornIn": "Mauritius",
+    "bornInLat": -20.2,
+    "bornInLng": 57.5
+  },
+  "Mauritius": {
+    "lat": -20.2,
+    "lng": 57.5
+  },
+  "Q6171387": {
+    "bornIn": "Mauritius",
+    "bornInLat": -20.2,
+    "bornInLng": 57.5
+  },
+  "Q212274": {
+    "bornIn": "Nogent-sur-Marne",
+    "bornInLat": 48.836666666667,
+    "bornInLng": 2.4825
+  },
+  "Nogent-sur-Marne": {
+    "lat": 48.836666666667,
+    "lng": 2.4825
+  },
+  "Q5387382": {
+    "bornInLat": 53.7975,
+    "bornInLng": -1.5436111111111113
+  },
+  "Q206988": {
+    "bornIn": "Cheltenham",
+    "bornInLat": 51.896519444444,
+    "bornInLng": -2.0784277777778
+  },
+  "Cheltenham": {
+    "lat": 51.896519444444,
+    "lng": -2.0784277777778
+  },
+  "Q4693096": {
+    "bornIn": "Cheltenham",
+    "bornInLat": 51.896519444444,
+    "bornInLng": -2.0784277777778
+  },
+  "Q3179569": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q979546": {
+    "bornIn": "Vernon",
+    "bornInLat": 34.1511,
+    "bornInLng": -99.2906
+  },
+  "Vernon": {
+    "lat": 34.1511,
+    "lng": -99.2906
+  },
+  "Q1010539": {
+    "bornIn": "Red Bank",
+    "bornInLat": 40.3487,
+    "bornInLng": -74.0665
+  },
+  "Red Bank": {
+    "lat": 40.3487,
+    "lng": -74.0665
+  },
+  "Q5623405": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q4975790": {
+    "bornIn": "Broughton",
+    "bornInLat": 53.4984,
+    "bornInLng": -2.25856
+  },
+  "Broughton": {
+    "lat": 53.4984,
+    "lng": -2.25856
+  },
+  "Q1301901": {
+    "bornIn": "Colony of Natal",
+    "bornInLat": -29.58333333,
+    "bornInLng": 30.41666667
+  },
+  "Colony of Natal": {
+    "lat": -29.58333333,
+    "lng": 30.41666667
+  },
+  "Q919550": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q1351469": {
+    "bornInLat": 52.4948994,
+    "bornInLng": -1.8518439
+  },
+  "Q2856784": {
+    "bornIn": "North",
+    "bornInLat": 33.616111111111,
+    "bornInLng": -81.103611111111
+  },
+  "North": {
+    "lat": 33.616111111111,
+    "lng": -81.103611111111
+  },
+  "Q150217": {
+    "bornIn": "Finchley",
+    "bornInLat": 51.599,
+    "bornInLng": -0.187
+  },
+  "Finchley": {
+    "lat": 51.599,
+    "lng": -0.187
+  },
+  "Q711129": {
+    "bornIn": "Finchley",
+    "bornInLat": 51.599,
+    "bornInLng": -0.187
+  },
+  "Q847715": {
+    "bornIn": "Joniškis",
+    "bornInLat": 56.233333333333334,
+    "bornInLng": 23.616666666666667
+  },
+  "Joniškis": {
+    "lat": 56.233333333333334,
+    "lng": 23.616666666666667
+  },
+  "Q988515": {
+    "bornIn": "East Orange",
+    "bornInLat": 40.766111111111,
+    "bornInLng": -74.211666666667
+  },
+  "East Orange": {
+    "lat": 40.766111111111,
+    "lng": -74.211666666667
+  },
+  "Q1997321": {
+    "bornIn": "Edmonton",
+    "bornInLat": 51.6154,
+    "bornInLng": -0.0708
+  },
+  "Edmonton": {
+    "lat": 51.6154,
+    "lng": -0.0708
+  },
+  "Q6531214": {
+    "bornIn": "Edmonton",
+    "bornInLat": 51.6154,
+    "bornInLng": -0.0708
+  },
+  "Q184385": {
+    "bornIn": "Zeehan",
+    "bornInLat": -41.883333333333,
+    "bornInLng": 145.33333333333
+  },
+  "Zeehan": {
+    "lat": -41.883333333333,
+    "lng": 145.33333333333
+  },
+  "Q3400833": {
+    "bornIn": "Clydach Vale",
+    "bornInLat": 51.625,
+    "bornInLng": -3.48000002
+  },
+  "Clydach Vale": {
+    "lat": 51.625,
+    "lng": -3.48000002
+  },
+  "Q775299": {
+    "bornIn": "Chippenham",
+    "bornInLat": 51.4585,
+    "bornInLng": -2.1158
+  },
+  "Chippenham": {
+    "lat": 51.4585,
+    "lng": -2.1158
+  },
+  "Q2385925": {
+    "bornIn": "presidencies and provinces in British India",
+    "bornInLat": 28.61389538888889,
+    "bornInLng": 77.20900569444444
+  },
+  "presidencies and provinces in British India": {
+    "lat": 28.61389538888889,
+    "lng": 77.20900569444444
+  },
+  "Q17415169": {
+    "bornIn": "presidencies and provinces in British India",
+    "bornInLat": 28.61389538888889,
+    "bornInLng": 77.20900569444444
+  },
+  "Q1813948": {
+    "bornIn": null,
+    "bornInLat": 53.3304,
+    "bornInLng": -3.3004
+  },
+  "Q220": {
+    "bornIn": "Rome",
+    "bornInLat": 41.893055555556,
+    "bornInLng": 12.482777777778
+  },
+  "Rome": {
+    "lat": 41.893055555556,
+    "lng": 12.482777777778
+  },
+  "Q4723730": {
+    "bornIn": "Rome",
+    "bornInLat": 41.893055555556,
+    "bornInLng": 12.482777777778
+  },
+  "Q26339": {
+    "bornIn": "Jersey City",
+    "bornInLat": 40.71,
+    "bornInLng": -74.06
+  },
+  "Jersey City": {
+    "lat": 40.71,
+    "lng": -74.06
+  },
+  "Q44564": {
+    "bornIn": "Charleston",
+    "bornInLat": 38.347222222222,
+    "bornInLng": -81.633333333333
+  },
+  "Charleston": {
+    "lat": 38.347222222222,
+    "lng": -81.633333333333
+  },
+  "Q3041220": {
+    "bornInLat": 51.4767,
+    "bornInLng": -0.2138
+  },
+  "Q7287815": {
+    "bornInLat": 53.466666666667,
+    "bornInLng": -2.2333333333333
+  },
+  "Q2522343": {
+    "bornIn": "Tunapuna",
+    "bornInLat": 10.6333,
+    "bornInLng": -61.3833
+  },
+  "Tunapuna": {
+    "lat": 10.6333,
+    "lng": -61.3833
+  },
+  "Q169997": {
+    "bornIn": "Darjeeling",
+    "bornInLat": 27.0375,
+    "bornInLng": 88.26305555555555
+  },
+  "Darjeeling": {
+    "lat": 27.0375,
+    "lng": 88.26305555555555
+  },
+  "Q12245": {
+    "bornIn": "Stanley",
+    "bornInLat": -51.693861,
+    "bornInLng": -57.849556
+  },
+  "Stanley": {
+    "lat": -51.693861,
+    "lng": -57.849556
+  },
+  "Q2856469": {
+    "bornIn": "Kings Norton",
+    "bornInLat": 52.4072,
+    "bornInLng": -1.9272
+  },
+  "Kings Norton": {
+    "lat": 52.4072,
+    "lng": -1.9272
+  },
+  "Q5576577": {
+    "bornIn": "Kings Norton",
+    "bornInLat": 52.4072,
+    "bornInLng": -1.9272
+  },
+  "Q41819": {
+    "bornIn": "Kansas City",
+    "bornInLat": 39.05,
+    "bornInLng": -94.583333333333
+  },
+  "Kansas City": {
+    "lat": 39.05,
+    "lng": -94.583333333333
+  },
+  "Q283952": {
+    "bornIn": "Kansas City",
+    "bornInLat": 39.05,
+    "bornInLng": -94.583333333333
+  },
+  "Q133116": {
+    "bornIn": "Hamilton",
+    "bornInLat": 43.256666666667,
+    "bornInLng": -79.869166666667
+  },
+  "Hamilton": {
+    "lat": 43.256666666667,
+    "lng": -79.869166666667
+  },
+  "Q3738335": {
+    "bornIn": "Hamar",
+    "bornInLat": 60.794444444444,
+    "bornInLng": 11.067777777778
+  },
+  "Hamar": {
+    "lat": 60.794444444444,
+    "lng": 11.067777777778
+  },
+  "Q993076": {
+    "bornIn": "Hlotse",
+    "bornInLat": -28.873361111111,
+    "bornInLng": 28.041583333333
+  },
+  "Hlotse": {
+    "lat": -28.873361111111,
+    "lng": 28.041583333333
+  },
+  "Q712017": {
+    "bornInLat": 51.655277777777776,
+    "bornInLng": -0.3958333333333333
+  },
+  "Q25412": {
+    "bornIn": "Västerås",
+    "bornInLat": 59.617319380941,
+    "bornInLng": 16.542157497094
+  },
+  "Västerås": {
+    "lat": 59.617319380941,
+    "lng": 16.542157497094
+  },
+  "Q146553": {
+    "bornIn": "Herne Hill",
+    "bornInLat": 51.4544,
+    "bornInLng": -0.0936
+  },
+  "Herne Hill": {
+    "lat": 51.4544,
+    "lng": -0.0936
+  },
+  "Q14946907": {
+    "bornIn": "Herne Hill",
+    "bornInLat": 51.4544,
+    "bornInLng": -0.0936
+  },
+  "Q41621": {
+    "bornIn": "Haifa",
+    "bornInLat": 32.81916666666667,
+    "bornInLng": 34.99916666666667
+  },
+  "Haifa": {
+    "lat": 32.81916666666667,
+    "lng": 34.99916666666667
+  },
+  "Q215354": {
+    "bornIn": "Notting Hill",
+    "bornInLat": 51.5096,
+    "bornInLng": -0.2043
+  },
+  "Notting Hill": {
+    "lat": 51.5096,
+    "lng": -0.2043
+  },
+  "Q780860": {
+    "bornIn": "Notting Hill",
+    "bornInLat": 51.5096,
+    "bornInLng": -0.2043
+  },
+  "Q1633759": {
+    "bornIn": "Hucknall",
+    "bornInLat": 53.0339,
+    "bornInLng": -1.2013
+  },
+  "Hucknall": {
+    "lat": 53.0339,
+    "lng": -1.2013
+  },
+  "Q1230717": {
+    "bornIn": "Hucknall",
+    "bornInLat": 53.0339,
+    "bornInLng": -1.2013
+  },
+  "Q1479": {
+    "bornIn": "Bordeaux",
+    "bornInLat": 44.837777777778,
+    "bornInLng": -0.57944444444444
+  },
+  "Bordeaux": {
+    "lat": 44.837777777778,
+    "lng": -0.57944444444444
+  },
+  "Q615624": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q2345129": {
+    "bornInLat": 51.507222222222,
+    "bornInLng": -0.1275
+  },
+  "Q23306": {
+    "bornIn": "Greater London",
+    "bornInLat": 51.52,
+    "bornInLng": -0.1
+  },
+  "Greater London": {
+    "lat": 51.52,
+    "lng": -0.1
+  },
+  "Q15524684": {
+    "bornIn": "Greater London",
+    "bornInLat": 51.52,
+    "bornInLng": -0.1
+  },
+  "Q41329": {
+    "bornIn": "Linz",
+    "bornInLat": 48.30583333333333,
+    "bornInLng": 14.286388888888888
+  },
+  "Linz": {
+    "lat": 48.30583333333333,
+    "lng": 14.286388888888888
   }
 }

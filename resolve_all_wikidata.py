@@ -111,12 +111,15 @@ def get_birthplace_and_coords(qid, cache):
                     lat = val.get("latitude")
                     lng = val.get("longitude")
                     
-        result = {"bornIn": born_in_name, "bornInLat": lat, "bornInLng": lng}
+        if born_in_name is None or lat is None or lng is None:
+            result = {"bornIn": "Desert Island", "bornInLat": -14.0, "bornInLng": -13.0}
+        else:
+            result = {"bornIn": born_in_name, "bornInLat": lat, "bornInLng": lng}
         cache[qid] = result
         return result
     except Exception as e:
         print(f"Error fetching coordinates for QID '{qid}': {e}")
-    return {"bornIn": None, "bornInLat": None, "bornInLng": None}
+    return {"bornIn": "Desert Island", "bornInLat": -14.0, "bornInLng": -13.0}
 
 def get_label(qid):
     url = f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json"
@@ -158,9 +161,10 @@ def main():
         # Search Wikipedia
         title = search_wikipedia(name)
         if not title:
-            print("  -> Wikipedia article not found.")
-            c["bornInLat"] = None
-            c["bornInLng"] = None
+            print("  -> Wikipedia article not found. Defaulting to Desert Island (-14, -13).")
+            c["bornIn"] = "Desert Island"
+            c["bornInLat"] = -14.0
+            c["bornInLng"] = -13.0
             unresolved_count += 1
             continue
             
@@ -168,9 +172,10 @@ def main():
         time.sleep(0.05)
         qid = get_wikidata_qid(title)
         if not qid:
-            print(f"  -> QID not found for title '{title}'.")
-            c["bornInLat"] = None
-            c["bornInLng"] = None
+            print(f"  -> QID not found for title '{title}'. Defaulting to Desert Island (-14, -13).")
+            c["bornIn"] = "Desert Island"
+            c["bornInLat"] = -14.0
+            c["bornInLng"] = -13.0
             unresolved_count += 1
             continue
             
