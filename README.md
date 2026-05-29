@@ -105,3 +105,8 @@ The Date Value: When you see a different date (like April 24) on BBC Sounds, it 
 The original on-air radio broadcast date (or a recent repeat transmission date on Radio 4).
 
 A pre-release window where UK listeners on the BBC Sounds app get exclusive early streaming access to episodes weeks before they are legally cleared and published as permanent downloadable audio files in the global podcast RSS feed.
+
+## Capped Podcast RSS Feed vs. 80-Year Archive
+The ingestion pipeline (parse_rss.py and update_feed_weekly.py) builds the database by downloading and parsing the official BBC Podcast RSS feed (https://podcasts.files.bbci.co.uk/b006qnmr.rss).
+
+The live BBC RSS feed is capped at a hard limit of exactly 2,000 episodes. Desert Island Discs has broadcast over 3,400 episodes since its inception in 1942. As a result, older episodes from the archive routinely drop off the feed unless they are actively dropped back in as curated "Classic" episodes. This dataset goes back to Dec 1978.

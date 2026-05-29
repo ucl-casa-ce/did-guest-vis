@@ -23974,5 +23974,17 @@
     "bornInLng": 140.78277777778,
     "imagePid": "p07my0ks",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Robert_Helpmann"
+  },
+  {
+    "id": "amadeus_string_quartet",
+    "name": "Amadeus String Quartet",
+    "broadcastDate": "11 Feb 1978",
+    "episodeUrl": "https://www.bbc.co.uk/programmes/p009mz0t",
+    "description": "<p>Roy Plomley's castaways are the musicians the Amadeus String Quartet.</p><p>Book: A la Recherche du Temps Perdu by Marcel Proust and Instrument-making and Divine Comedy by Dante Alighieri and War and Peace by Leo Tolstoy<br>Luxury: Projector, viola, radio, paper and pencils</p>",
+    "bornIn": "London, England",
+    "bornInLat": 51.5074,
+    "bornInLng": -0.1278,
+    "imagePid": "p07my0ks",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Amadeus_Quartet"
   }
 ]
