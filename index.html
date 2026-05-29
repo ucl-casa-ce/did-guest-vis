@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BBC Desert Island Discs - Global Castaway Map</title>
   <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <!-- Google Fonts for BBC-style typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <!-- Fullscreen Map Canvas -->
   <div id="map"></div>
@@ -24,7 +29,8 @@
       <h2>Global Castaway Map</h2>
     </div>
     <div class="stats">
-      <span class="stat-value"><span id="mapped-count">0</span> Castaways, last updated <span id="last-updated-date">xxxx</span></span>
+      <span class="stat-value"><span id="mapped-count">0</span> Castaways, last updated <span
+          id="last-updated-date">xxxx</span></span>
     </div>
     <div class="tour-control">
       <label class="switch-container">
@@ -48,7 +54,8 @@
       </div>
     </div>
     <div class="info-note">
-      Select a castaway dot on the map to view their biography and official show links!
+      Select a castaway dot on the map to view their biography and official show links. View project info on <a
+        href="https://github.com/ucl-casa-ce/did-guest-vis">GitHub</a>
     </div>
   </header>
 
@@ -57,7 +64,8 @@
     <button id="close-panel-btn" class="close-btn" aria-label="Close details">&times;</button>
     <div id="details-content">
       <div class="placeholder-text">
-        <svg class="placeholder-icon" viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <svg class="placeholder-icon" viewBox="0 0 24 24" width="48" height="48" stroke="currentColor"
+          stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
           <circle cx="12" cy="10" r="3"></circle>
         </svg>
@@ -67,7 +75,9 @@
   </aside>
 
   <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="app.js"></script>
 </body>
+
 </html>
