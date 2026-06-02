@@ -20,10 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
     maxZoom: 20
   }).addTo(map);
 
-  // Details panel DOM selections
+  // Details/Header panel DOM selections
   const detailsPanel = document.getElementById("details-panel");
   const detailsContent = document.getElementById("details-content");
   const closePanelBtn = document.getElementById("close-panel-btn");
+  const headerPanel = document.getElementById("header-panel");
+  const menuToggleBtn = document.getElementById("menu-toggle-btn");
 
   // Keep details panel hidden on initial load
   detailsPanel.classList.add("hidden");
@@ -31,6 +33,48 @@ document.addEventListener("DOMContentLoaded", () => {
   // Close panel event handler
   closePanelBtn.addEventListener("click", () => {
     detailsPanel.classList.add("hidden");
+  });
+
+  // Main menu collapse/expand state management
+  // 1. Check localStorage for user preference (wrapped in try-catch to prevent crash if disabled)
+  // 2. If no preference exists, default to collapsed on mobile (<768px), expanded on desktop
+  let isMenuCollapsed = false;
+  try {
+    const cachedMenuState = localStorage.getItem("did_menu_collapsed");
+    if (cachedMenuState !== null) {
+      isMenuCollapsed = cachedMenuState === "true";
+    } else {
+      isMenuCollapsed = window.innerWidth <= 768;
+    }
+  } catch (e) {
+    isMenuCollapsed = window.innerWidth <= 768;
+  }
+
+  // Apply initial collapsed state
+  if (isMenuCollapsed) {
+    headerPanel.classList.add("collapsed");
+    menuToggleBtn.setAttribute("aria-label", "Expand menu");
+  } else {
+    headerPanel.classList.remove("collapsed");
+    menuToggleBtn.setAttribute("aria-label", "Minimize menu");
+  }
+
+  // Handle menu toggle interaction
+  menuToggleBtn.addEventListener("click", () => {
+    const isCurrentlyCollapsed = headerPanel.classList.contains("collapsed");
+    if (isCurrentlyCollapsed) {
+      headerPanel.classList.remove("collapsed");
+      menuToggleBtn.setAttribute("aria-label", "Minimize menu");
+      try {
+        localStorage.setItem("did_menu_collapsed", "false");
+      } catch (e) {}
+    } else {
+      headerPanel.classList.add("collapsed");
+      menuToggleBtn.setAttribute("aria-label", "Expand menu");
+      try {
+        localStorage.setItem("did_menu_collapsed", "true");
+      } catch (e) {}
+    }
   });
 
   // Helper to resolve decade colors for chronological mapping
@@ -49,6 +93,16 @@ document.addEventListener("DOMContentLoaded", () => {
     if (year >= 2010 && year < 2020) return "#0F766E"; // 2010s
     if (year >= 2020 && year < 2030) return "#1E3A8A"; // 2020s
     return "#9CA3AF";
+  }
+
+  // Helper to extract the decade string from a broadcast date
+  function getDecadeString(dateStr) {
+    if (!dateStr) return "Unknown";
+    const match = dateStr.match(/\b(19\d{2}|20\d{2})\b/);
+    if (!match) return "Unknown";
+    const year = parseInt(match[1], 10);
+    const decadeStart = Math.floor(year / 10) * 10;
+    return `${decadeStart}s`;
   }
 
   // Fetch the data.json database with cache-busting to force latest updates
@@ -95,6 +149,8 @@ document.addEventListener("DOMContentLoaded", () => {
           }).addTo(map);
 
           marker.decadeColor = decadeColor; // Save for dynamic highlights and transitions
+          marker.decade = getDecadeString(c.broadcastDate); // Save decade string for filtering
+          marker.castaway = c; // Reference castaway data directly on marker
           mappedMarkers.push(marker);
 
           // Construct rich tooltip details (shows on mouseover)
@@ -235,6 +291,66 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("last-updated-date").textContent = castaways[0].broadcastDate;
       }
 
+      // Legend Decade Filtering Interaction
+      const legendGrid = document.getElementById("legend-grid");
+      const legendItems = legendGrid.querySelectorAll(".legend-item");
+      let activeDecadeFilter = null;
+
+      legendItems.forEach(item => {
+        item.addEventListener("click", () => {
+          const clickedDecade = item.getAttribute("data-decade");
+
+          if (activeDecadeFilter === clickedDecade) {
+            // Clicking the active filter a second time clears it
+            activeDecadeFilter = null;
+            legendGrid.classList.remove("filtering");
+            item.classList.remove("active");
+          } else {
+            // Deactivate existing active filter
+            legendItems.forEach(i => i.classList.remove("active"));
+            
+            // Set new active filter
+            activeDecadeFilter = clickedDecade;
+            legendGrid.classList.add("filtering");
+            item.classList.add("active");
+          }
+
+          // Filter map markers in a single optimized pass
+          let currentCount = 0;
+          mappedMarkers.forEach(m => {
+            if (activeDecadeFilter === null || m.decade === activeDecadeFilter) {
+              if (!map.hasLayer(m)) {
+                m.addTo(map);
+              }
+              currentCount++;
+            } else {
+              if (map.hasLayer(m)) {
+                map.removeLayer(m);
+              }
+            }
+          });
+
+          // Close the details panel if the active selected castaway is hidden by the filter
+          if (selectedMarker && !map.hasLayer(selectedMarker)) {
+            detailsPanel.classList.add("hidden");
+            selectedMarker.setStyle({
+              radius: 5.5,
+              fillColor: selectedMarker.decadeColor,
+              fillOpacity: 0.8
+            });
+            selectedMarker = null;
+          }
+
+          // Dynamically adjust stats counter
+          const countElement = document.getElementById("mapped-count");
+          if (activeDecadeFilter) {
+            countElement.innerHTML = `${currentCount} <span style="font-size: 11px; font-weight: 600; color: #6B7280; text-transform: uppercase;">in ${activeDecadeFilter}</span>`;
+          } else {
+            countElement.textContent = mappedCount;
+          }
+        });
+      });
+
       // Autoplay Random Tour Logic
       const tourToggle = document.getElementById("tour-toggle");
       let tourInterval = null;
@@ -262,8 +378,11 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       function jumpToRandom() {
-        const randomIndex = Math.floor(Math.random() * mappedMarkers.length);
-        const targetMarker = mappedMarkers[randomIndex];
+        // Filter random tour candidates to only contain currently visible markers
+        const visibleMarkers = mappedMarkers.filter(m => map.hasLayer(m));
+        if (visibleMarkers.length === 0) return;
+        const randomIndex = Math.floor(Math.random() * visibleMarkers.length);
+        const targetMarker = visibleMarkers[randomIndex];
         targetMarker.fire("click");
       }
     })

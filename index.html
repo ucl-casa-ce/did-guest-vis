@@ -22,40 +22,47 @@
   <div id="map"></div>
 
   <!-- Floating HUD Header (Left Side) -->
-  <header class="hud-panel header-panel">
+  <header id="header-panel" class="hud-panel header-panel">
+    <button id="menu-toggle-btn" class="menu-toggle-btn" aria-label="Minimize menu">
+      <svg class="toggle-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
     <div class="brand">
       <span class="bbc-pill">BBC SOUNDS</span>
       <h1>Desert Island Discs</h1>
       <h2>Global Castaway Map</h2>
     </div>
-    <div class="stats">
-      <span class="stat-value"><span id="mapped-count">0</span> Castaways, last updated <span
-          id="last-updated-date">xxxx</span></span>
-    </div>
-    <div class="tour-control">
-      <label class="switch-container">
-        <input type="checkbox" id="tour-toggle">
-        <span class="switch-slider"></span>
-      </label>
-      <span class="tour-label">Autoplay Random Tour</span>
-    </div>
-    <div class="legend">
-      <h3>Broadcast Era</h3>
-      <div class="legend-grid">
-        <div class="legend-item"><span class="color-dot" style="background:#FCD34D;"></span> 1940s</div>
-        <div class="legend-item"><span class="color-dot" style="background:#F59E0B;"></span> 1950s</div>
-        <div class="legend-item"><span class="color-dot" style="background:#D97706;"></span> 1960s</div>
-        <div class="legend-item"><span class="color-dot" style="background:#EA580C;"></span> 1970s</div>
-        <div class="legend-item"><span class="color-dot" style="background:#E11D48;"></span> 1980s</div>
-        <div class="legend-item"><span class="color-dot" style="background:#14B8A6;"></span> 1990s</div>
-        <div class="legend-item"><span class="color-dot" style="background:#0D9488;"></span> 2000s</div>
-        <div class="legend-item"><span class="color-dot" style="background:#0F766E;"></span> 2010s</div>
-        <div class="legend-item"><span class="color-dot" style="background:#1E3A8A;"></span> 2020s</div>
+    <div id="header-content" class="header-content">
+      <div class="stats">
+        <span class="stat-value"><span id="mapped-count">0</span> Castaways, last updated <span
+            id="last-updated-date">xxxx</span></span>
       </div>
-    </div>
-    <div class="info-note">
-      Select a castaway dot on the map to view their biography and official show links. View project info on <a
-        href="https://github.com/ucl-casa-ce/did-guest-vis">GitHub</a>
+      <div class="tour-control">
+        <label class="switch-container">
+          <input type="checkbox" id="tour-toggle">
+          <span class="switch-slider"></span>
+        </label>
+        <span class="tour-label">Autoplay Random Tour</span>
+      </div>
+      <div class="legend">
+        <h3>Broadcast Era</h3>
+        <div id="legend-grid" class="legend-grid">
+          <div class="legend-item" data-decade="1940s"><span class="color-dot" style="background:#FCD34D;"></span> 1940s</div>
+          <div class="legend-item" data-decade="1950s"><span class="color-dot" style="background:#F59E0B;"></span> 1950s</div>
+          <div class="legend-item" data-decade="1960s"><span class="color-dot" style="background:#D97706;"></span> 1960s</div>
+          <div class="legend-item" data-decade="1970s"><span class="color-dot" style="background:#EA580C;"></span> 1970s</div>
+          <div class="legend-item" data-decade="1980s"><span class="color-dot" style="background:#E11D48;"></span> 1980s</div>
+          <div class="legend-item" data-decade="1990s"><span class="color-dot" style="background:#14B8A6;"></span> 1990s</div>
+          <div class="legend-item" data-decade="2000s"><span class="color-dot" style="background:#0D9488;"></span> 2000s</div>
+          <div class="legend-item" data-decade="2010s"><span class="color-dot" style="background:#0F766E;"></span> 2010s</div>
+          <div class="legend-item" data-decade="2020s"><span class="color-dot" style="background:#1E3A8A;"></span> 2020s</div>
+        </div>
+      </div>
+      <div class="info-note">
+        Select a castaway dot on the map to view their biography and official show links. View project info on <a
+          href="https://github.com/ucl-casa-ce/did-guest-vis">GitHub</a>
+      </div>
     </div>
   </header>
 
