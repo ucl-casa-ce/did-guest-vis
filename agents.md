@@ -181,6 +181,10 @@ Then navigate to: `http://localhost:8000`
 
 ### Running the Weekly Update Script
 ```bash
+# Test run (dry-run mode without modifying any files)
+python3 update_feed_weekly.py --dry-run
+
+# Run full update (modifies data.json and geocache.json)
 python3 update_feed_weekly.py
 ```
 This inspects `data.json`, pulls `https://podcasts.files.bbci.co.uk/b006qnmr.rss`, and enriches any new episodes.

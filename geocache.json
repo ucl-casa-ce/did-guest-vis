@@ -14219,5 +14219,90 @@
   "Linz": {
     "lat": 48.30583333333333,
     "lng": 14.286388888888888
+  },
+  "Q6312426": {
+    "bornIn": "Nottingham",
+    "bornInLat": 52.955,
+    "bornInLng": -1.1491666666667
+  },
+  "Q6308207": {
+    "bornIn": "Heywood",
+    "bornInLat": 53.59,
+    "bornInLng": -2.219
+  },
+  "Q7145611": {
+    "bornIn": "Allenton",
+    "bornInLat": 52.884,
+    "bornInLng": -1.446
+  },
+  "Q24009805": {
+    "bornIn": "Bishop Auckland",
+    "bornInLat": 54.66,
+    "bornInLng": -1.68
+  },
+  "Q725686": {
+    "bornIn": "Kensington",
+    "bornInLat": 53.41,
+    "bornInLng": -2.953
+  },
+  "Q5525683": {
+    "bornIn": "England",
+    "bornInLat": 53,
+    "bornInLng": -1
+  },
+  "Q229535": {
+    "bornIn": "Islington",
+    "bornInLat": 51.544,
+    "bornInLng": -0.1027
+  },
+  "Q594600": {
+    "bornIn": "Kirmington",
+    "bornInLat": 53.583036111111,
+    "bornInLng": -0.33370555555556
+  },
+  "Q5164980": {
+    "bornIn": "Desert Island",
+    "bornInLat": -14.0,
+    "bornInLng": -13.0
+  },
+  "Lahore": {
+    "lat": 31.549722222222,
+    "lng": 74.343611111111
+  },
+  "Sheffield": {
+    "lat": 53.380833333333335,
+    "lng": -1.4702777777777778
+  },
+  "Chicago": {
+    "lat": 41.88194444444444,
+    "lng": -87.62777777777778
+  },
+  "Rothbury": {
+    "lat": 55.3087,
+    "lng": -1.9079
+  },
+  "East London": {
+    "lat": 51.55,
+    "lng": 0.1
+  },
+  "Torquay": {
+    "lat": 50.4625,
+    "lng": -3.5280555555556
+  },
+  "North Adams": {
+    "lat": 42.700833333333,
+    "lng": -73.109166666667
+  },
+  "Oslo": {
+    "lat": 59.913333333333334,
+    "lng": 10.738888888888889
+  },
+  "Beverley": {
+    "lat": 53.8425488,
+    "lng": -0.4315677
+  },
+  "Prague": {
+    "lat": 50.0875,
+    "lng": 14.421388888888888
   }
 }

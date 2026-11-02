@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 import ssl
 import os
 import re
+import sys
 import time
 from datetime import datetime
 
@@ -15,8 +16,32 @@ CACHE_FILE = "geocache.json"
 
 ssl_context = ssl._create_unverified_context()
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "DesertIslandDiscsVisualiser/1.0 (https://github.com/ucl-casa-ce/did-guest-vis; contact: d.j.wilson@ucl.ac.uk)"
 }
+
+def fetch_json(url, max_retries=4, base_delay=2.0):
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=10, context=ssl_context) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait_time = base_delay * (2 ** attempt)
+                print(f"  [Rate limit 429] Backing off for {wait_time:.1f}s...")
+                time.sleep(wait_time)
+            elif attempt < max_retries - 1:
+                time.sleep(base_delay)
+            else:
+                print(f"  [HTTP Error {e.code}] for {url}: {e}")
+                return None
+        except Exception as e:
+            if attempt < max_retries - 1:
+                time.sleep(base_delay)
+            else:
+                print(f"  [Network Error] for {url}: {e}")
+                return None
+    return None
 
 def load_cache():
     if os.path.exists(CACHE_FILE):
@@ -47,92 +72,93 @@ def clean_guest_name(name):
 def search_wikipedia_title(name):
     clean_name = clean_guest_name(name)
     url = f"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch={urllib.parse.quote(clean_name)}&srlimit=3&format=json"
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=8, context=ssl_context) as response:
-            data = json.loads(response.read().decode("utf-8"))
-            results = data.get("query", {}).get("search", [])
-            if results:
-                return results[0]["title"]
-    except Exception as e:
-        print(f"  [Wikipedia] Search error: {e}")
+    data = fetch_json(url)
+    if data:
+        results = data.get("query", {}).get("search", [])
+        if results:
+            return results[0]["title"]
     return None
 
 def get_wikidata_qid(page_title):
     url = f"https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&titles={urllib.parse.quote(page_title)}&format=json"
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=8, context=ssl_context) as response:
-            data = json.loads(response.read().decode("utf-8"))
-            pages = data.get("query", {}).get("pages", {})
-            for page_id, page_info in pages.items():
-                pageprops = page_info.get("pageprops", {})
-                if "wikibase_item" in pageprops:
-                    return pageprops["wikibase_item"]
-    except Exception as e:
-        print(f"  [Wikidata] QID fetch error: {e}")
+    data = fetch_json(url)
+    if data:
+        pages = data.get("query", {}).get("pages", {})
+        for page_id, page_info in pages.items():
+            pageprops = page_info.get("pageprops", {})
+            if "wikibase_item" in pageprops:
+                return pageprops["wikibase_item"]
+    return None
+
+def search_wikidata_entity(name):
+    clean_name = clean_guest_name(name)
+    url = f"https://www.wikidata.org/w/api.php?action=wbsearchentities&search={urllib.parse.quote(clean_name)}&language=en&format=json"
+    data = fetch_json(url)
+    if data:
+        results = data.get("search", [])
+        if results:
+            return results[0]["id"]
     return None
 
 def get_label(qid):
     url = f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json"
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=8, context=ssl_context) as response:
-            data = json.loads(response.read().decode("utf-8"))
+    data = fetch_json(url)
+    if data:
         entity = data.get("entities", {}).get(qid, {})
         labels = entity.get("labels", {})
         return labels.get("en", {}).get("value")
-    except Exception:
-        return None
+    return None
 
 def get_birthplace_and_coords(qid, cache):
     if qid in cache:
         return cache[qid]
         
     url = f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json"
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=8, context=ssl_context) as response:
-            data = json.loads(response.read().decode("utf-8"))
+    data = fetch_json(url)
+    if not data:
+        return {"bornIn": "Desert Island", "bornInLat": -14.0, "bornInLng": -13.0}
+        
+    entity = data.get("entities", {}).get(qid, {})
+    claims = entity.get("claims", {})
+    
+    born_in_name = None
+    lat = None
+    lng = None
+    
+    born_in_claims = claims.get("P19", [])
+    if born_in_claims:
+        born_in_qid = born_in_claims[0].get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id")
+        if born_in_qid:
+            born_in_name = get_label(born_in_qid)
             
-        entity = data.get("entities", {}).get(qid, {})
-        claims = entity.get("claims", {})
-        
-        born_in_name = None
-        lat = None
-        lng = None
-        
-        born_in_claims = claims.get("P19", [])
-        if born_in_claims:
-            born_in_qid = born_in_claims[0].get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id")
-            if born_in_qid:
-                born_in_name = get_label(born_in_qid)
-                
+            # Check if this place name is already in geocache
+            if born_in_name and born_in_name in cache and isinstance(cache[born_in_name], dict) and "lat" in cache[born_in_name]:
+                lat = cache[born_in_name]["lat"]
+                lng = cache[born_in_name]["lng"]
+            else:
                 born_in_url = f"https://www.wikidata.org/wiki/Special:EntityData/{born_in_qid}.json"
-                born_in_req = urllib.request.Request(born_in_url, headers=HEADERS)
-                
-                time.sleep(0.05)
-                with urllib.request.urlopen(born_in_req, timeout=8, context=ssl_context) as b_resp:
-                    b_data = json.loads(b_resp.read().decode("utf-8"))
-                
-                b_entity = b_data.get("entities", {}).get(born_in_qid, {})
-                b_claims = b_entity.get("claims", {})
-                
-                coords_claims = b_claims.get("P625", [])
-                if coords_claims:
-                    val = coords_claims[0].get("mainsnak", {}).get("datavalue", {}).get("value", {})
-                    lat = val.get("latitude")
-                    lng = val.get("longitude")
+                time.sleep(0.1)
+                b_data = fetch_json(born_in_url)
+                if b_data:
+                    b_entity = b_data.get("entities", {}).get(born_in_qid, {})
+                    b_claims = b_entity.get("claims", {})
                     
-        if born_in_name is None or lat is None or lng is None:
-            result = {"bornIn": "Desert Island", "bornInLat": -14.0, "bornInLng": -13.0}
-        else:
-            result = {"bornIn": born_in_name, "bornInLat": lat, "bornInLng": lng}
-        cache[qid] = result
-        return result
-    except Exception as e:
-        print(f"  [Wikidata] Birthplace geocoding error for {qid}: {e}")
-    return {"bornIn": "Desert Island", "bornInLat": -14.0, "bornInLng": -13.0}
+                    coords_claims = b_claims.get("P625", [])
+                    if coords_claims:
+                        val = coords_claims[0].get("mainsnak", {}).get("datavalue", {}).get("value", {})
+                        lat = val.get("latitude")
+                        lng = val.get("longitude")
+                
+    if born_in_name is None or lat is None or lng is None:
+        result = {"bornIn": "Desert Island", "bornInLat": -14.0, "bornInLng": -13.0}
+    else:
+        result = {"bornIn": born_in_name, "bornInLat": lat, "bornInLng": lng}
+        # Cache both the QID and the place name
+        if born_in_name:
+            cache[born_in_name] = {"lat": lat, "lng": lng}
+            
+    cache[qid] = result
+    return result
 
 # --- BBC Portrait Resolver ---
 
@@ -221,8 +247,17 @@ def main():
         guest_name = guest_name.replace("Desert Island Discs -", "")
         guest_name = guest_name.replace("Desert Island Discs", "").strip()
         
-        # Skip compilations/highlights
-        if not guest_name or any(kw in guest_name.lower() for kw in ["compilation", "anniversary", "intro", "selection", "highlight", "special", "episode"]):
+        # Check audio duration: full DID episodes are 30-55 mins. Skip short clip extracts (< 15 mins / 900s).
+        itunes_ns = {"itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd"}
+        duration_el = item.find("itunes:duration", itunes_ns)
+        if duration_el is not None and duration_el.text and duration_el.text.strip().isdigit():
+            duration_secs = int(duration_el.text.strip())
+            if duration_secs < 900:
+                continue
+
+        # Skip compilations/highlights using whole-word boundaries so words like 'specialist' are not excluded
+        filter_pattern = r'\b(compilation|anniversary|intro|selection|highlights?|special|episodes?)\b'
+        if not guest_name or re.search(filter_pattern, guest_name, flags=re.IGNORECASE):
             continue
             
         # Format Date
@@ -243,11 +278,22 @@ def main():
             "description": description.strip()
         })
         
+    dry_run = "--dry-run" in sys.argv or "-n" in sys.argv
+    if dry_run:
+        print("[Mode: Dry Run - no data will be modified]")
+
     if not new_episodes:
         print("\n🎉 No new episodes found. The database is fully up to date!")
         return
         
-    print(f"\n✨ Detected {len(new_episodes)} new episode(s) to add!")
+    print(f"\n✨ Detected {len(new_episodes)} new episode(s) to add:")
+    for idx, ep in enumerate(new_episodes, 1):
+        print(f"  {idx:2d}. {ep['name']} ({ep['broadcastDate']}) — {ep['episodeUrl']}")
+        
+    if dry_run:
+        print(f"\n[Dry Run] Total new episodes that would be added: {len(new_episodes)}")
+        print("[Dry Run] Finished without modifying data.json or geocache.json.")
+        return
     
     cache = load_cache()
     added_count = 0
@@ -261,21 +307,39 @@ def main():
         born_in = "Desert Island"
         lat = -14.0
         lng = -13.0
+        qid = None
         
         wiki_title = search_wikipedia_title(name)
         if wiki_title:
             wiki_url = f"https://en.wikipedia.org/wiki/{urllib.parse.quote(wiki_title.replace(' ', '_'))}"
             qid = get_wikidata_qid(wiki_title)
-            if qid:
-                loc_data = get_birthplace_and_coords(qid, cache)
-                born_in = loc_data.get("bornIn", "Desert Island")
-                lat = loc_data.get("bornInLat", -14.0)
-                lng = loc_data.get("bornInLng", -13.0)
-                print(f"  -> Coordinates found: {born_in} ({lat}, {lng})")
-            else:
-                print("  -> Wikidata QID not found. Defaulting to Desert Island (-14, -13).")
+            
+        # Fallback to direct Wikidata entity search if Wikipedia didn't yield a QID
+        if not qid:
+            qid = search_wikidata_entity(name)
+            if qid and not wiki_url:
+                wiki_url = f"https://www.wikidata.org/wiki/{qid}"
+                
+        if qid:
+            loc_data = get_birthplace_and_coords(qid, cache)
+            born_in = loc_data.get("bornIn", "Desert Island")
+            lat = loc_data.get("bornInLat", -14.0)
+            lng = loc_data.get("bornInLng", -13.0)
+            
+        # Fallback: check episode description for "born in [Location]"
+        if born_in == "Desert Island" or lat == -14.0:
+            match = re.search(r'\bborn in ([A-Z][a-zA-Z\s]{2,25}?)(?:,|\.|\bin\b)', c.get("description", ""))
+            if match:
+                candidate_place = match.group(1).strip()
+                if candidate_place in cache and isinstance(cache[candidate_place], dict) and "lat" in cache[candidate_place]:
+                    born_in = candidate_place
+                    lat = cache[candidate_place]["lat"]
+                    lng = cache[candidate_place]["lng"]
+                    
+        if lat != -14.0:
+            print(f"  -> Coordinates found: {born_in} ({lat}, {lng})")
         else:
-            print("  -> Wikipedia article not found. Defaulting to Desert Island (-14, -13).")
+            print(f"  -> Could not resolve coordinates. Defaulting to Desert Island (-14, -13).")
             
         # 2. Resolve BBC imagePid
         image_pid = fetch_bbc_image_pid(c["episodeUrl"])
@@ -304,7 +368,7 @@ def main():
         castaways.insert(0, record)
         added_count += 1
         
-        time.sleep(0.5) # Dynamic sleep between lookups to be extremely polite
+        time.sleep(1.0) # Polite delay between guest lookups
         
     # Save cache & database
     save_cache(cache)

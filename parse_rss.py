@@ -141,8 +141,17 @@ def parse_rss_feed():
             guest_name = guest_name.replace("Desert Island Discs", "")
             guest_name = guest_name.strip()
             
-            # Skip placeholders, highlights, compilations, or promotional entries
-            if not guest_name or any(kw in guest_name.lower() for kw in ["compilation", "anniversary", "intro", "selection", "highlight", "special", "episode"]):
+            # Check audio duration: full DID episodes are 30-55 mins. Skip short clip extracts (< 15 mins / 900s).
+            itunes_ns = {"itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd"}
+            duration_el = item.find("itunes:duration", itunes_ns)
+            if duration_el is not None and duration_el.text and duration_el.text.strip().isdigit():
+                if int(duration_el.text.strip()) < 900:
+                    skipped_count += 1
+                    continue
+
+            # Skip placeholders, highlights, compilations, or promotional entries using word boundaries
+            filter_pattern = r'\b(compilation|anniversary|intro|selection|highlights?|special|episodes?)\b'
+            if not guest_name or re.search(filter_pattern, guest_name, flags=re.IGNORECASE):
                 skipped_count += 1
                 continue
 
