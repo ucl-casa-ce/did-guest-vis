@@ -4,6 +4,9 @@ FROM nginx:alpine
 # Add a label for identification
 LABEL maintainer="djw"
 
+# Ensure latest system CA certificates (fixes eMudhra/emSign CA security incident)
+RUN apk update && apk upgrade --no-cache ca-certificates && update-ca-certificates
+
 # Copy static assets to the default Nginx web root directory
 COPY index.html styles.css app.js data.json geocache.json /usr/share/nginx/html/
 
