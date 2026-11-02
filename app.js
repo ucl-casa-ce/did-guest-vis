@@ -350,6 +350,210 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       });
 
+      // Search Bar & Autocomplete Feature
+      const searchInput = document.getElementById("castaway-search");
+      const searchClearBtn = document.getElementById("search-clear-btn");
+      const searchResults = document.getElementById("search-results");
+      let selectedResultIdx = -1;
+      let currentSearchResults = [];
+
+      function normalizeStr(str) {
+        return (str || "")
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase();
+      }
+
+      function highlightMatch(text, rawQuery) {
+        if (!text || !rawQuery) return text || "";
+        const normText = normalizeStr(text);
+        const normQuery = normalizeStr(rawQuery);
+        const index = normText.indexOf(normQuery);
+        if (index === -1) return text;
+        const before = text.substring(0, index);
+        const matched = text.substring(index, index + rawQuery.length);
+        const after = text.substring(index + rawQuery.length);
+        return `${before}<mark>${matched}</mark>${after}`;
+      }
+
+      function resetSearch() {
+        searchInput.value = "";
+        searchClearBtn.classList.add("hidden");
+        searchResults.classList.add("hidden");
+        searchResults.innerHTML = "";
+        selectedResultIdx = -1;
+        currentSearchResults = [];
+
+        // Restore map markers based on decade filter
+        let currentCount = 0;
+        mappedMarkers.forEach(m => {
+          if (activeDecadeFilter === null || m.decade === activeDecadeFilter) {
+            if (!map.hasLayer(m)) m.addTo(map);
+            currentCount++;
+          } else {
+            if (map.hasLayer(m)) map.removeLayer(m);
+          }
+        });
+
+        const countElement = document.getElementById("mapped-count");
+        if (activeDecadeFilter) {
+          countElement.innerHTML = `${currentCount} <span style="font-size: 11px; font-weight: 600; color: #6B7280; text-transform: uppercase;">in ${activeDecadeFilter}</span>`;
+        } else {
+          countElement.textContent = mappedCount;
+        }
+      }
+
+      function selectSearchResult(marker) {
+        if (!marker) return;
+
+        // If decade filter was active and hiding this marker, reset the decade filter
+        if (activeDecadeFilter && activeDecadeFilter !== marker.decade) {
+          activeDecadeFilter = null;
+          legendGrid.classList.remove("filtering");
+          legendItems.forEach(i => i.classList.remove("active"));
+        }
+
+        // Ensure marker is on map
+        if (!map.hasLayer(marker)) {
+          marker.addTo(map);
+        }
+
+        // Close search dropdown and hide clear button
+        searchResults.classList.add("hidden");
+        selectedResultIdx = -1;
+
+        // Smoothly fly to the castaway's birthplace marker
+        const latLng = marker.getLatLng();
+        map.flyTo(latLng, Math.max(map.getZoom(), 8), { duration: 0.8 });
+
+        setTimeout(() => {
+          marker.fire("click");
+        }, 300);
+      }
+
+      function renderSearchResults(matched, rawQuery) {
+        currentSearchResults = matched;
+        selectedResultIdx = -1;
+
+        if (matched.length === 0) {
+          searchResults.innerHTML = `<div class="search-no-results">No castaway or birthplace found for "${rawQuery}"</div>`;
+          searchResults.classList.remove("hidden");
+          return;
+        }
+
+        const topMatches = matched.slice(0, 8);
+        searchResults.innerHTML = topMatches.map((m, idx) => {
+          const c = m.castaway;
+          return `
+            <div class="search-result-item" role="option" data-idx="${idx}">
+              <div class="search-result-info">
+                <span class="search-result-name">${highlightMatch(c.name, rawQuery)}</span>
+                <span class="search-result-meta">
+                  <svg viewBox="0 0 24 24" width="11" height="11" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  ${highlightMatch(c.bornIn, rawQuery)} &bull; ${c.broadcastDate}
+                </span>
+              </div>
+              <span class="search-result-badge">
+                <span class="color-dot" style="background:${m.decadeColor}; width:7px; height:7px; border-radius:50%; display:inline-block;"></span>
+                ${m.decade}
+              </span>
+            </div>
+          `;
+        }).join("");
+
+        // Attach click listeners to result rows
+        const items = searchResults.querySelectorAll(".search-result-item");
+        items.forEach((item, idx) => {
+          item.addEventListener("click", () => {
+            selectSearchResult(topMatches[idx]);
+          });
+        });
+
+        searchResults.classList.remove("hidden");
+      }
+
+      function handleSearchInput() {
+        const rawQuery = searchInput.value.trim();
+        const query = normalizeStr(rawQuery);
+
+        if (!query) {
+          resetSearch();
+          return;
+        }
+
+        searchClearBtn.classList.remove("hidden");
+
+        const matched = mappedMarkers.filter(m => {
+          const nameNorm = normalizeStr(m.castaway.name);
+          const bornNorm = normalizeStr(m.castaway.bornIn);
+          return nameNorm.includes(query) || bornNorm.includes(query);
+        });
+
+        // Update map markers in a single pass to display matched dots
+        mappedMarkers.forEach(m => {
+          const nameNorm = normalizeStr(m.castaway.name);
+          const bornNorm = normalizeStr(m.castaway.bornIn);
+          if (nameNorm.includes(query) || bornNorm.includes(query)) {
+            if (!map.hasLayer(m)) m.addTo(map);
+          } else {
+            if (map.hasLayer(m)) map.removeLayer(m);
+          }
+        });
+
+        // Update counter HUD
+        const countElement = document.getElementById("mapped-count");
+        countElement.innerHTML = `${matched.length} <span style="font-size: 11px; font-weight: 600; color: #6B7280; text-transform: uppercase;">found</span>`;
+
+        renderSearchResults(matched, rawQuery);
+      }
+
+      searchInput.addEventListener("input", handleSearchInput);
+
+      searchClearBtn.addEventListener("click", () => {
+        resetSearch();
+        searchInput.focus();
+      });
+
+      // Keyboard navigation in search dropdown
+      searchInput.addEventListener("keydown", (e) => {
+        const items = searchResults.querySelectorAll(".search-result-item");
+        if (e.key === "ArrowDown") {
+          e.preventDefault();
+          if (items.length > 0) {
+            selectedResultIdx = (selectedResultIdx + 1) % items.length;
+            items.forEach((it, i) => it.classList.toggle("selected", i === selectedResultIdx));
+            items[selectedResultIdx].scrollIntoView({ block: "nearest" });
+          }
+        } else if (e.key === "ArrowUp") {
+          e.preventDefault();
+          if (items.length > 0) {
+            selectedResultIdx = (selectedResultIdx - 1 + items.length) % items.length;
+            items.forEach((it, i) => it.classList.toggle("selected", i === selectedResultIdx));
+            items[selectedResultIdx].scrollIntoView({ block: "nearest" });
+          }
+        } else if (e.key === "Enter") {
+          e.preventDefault();
+          if (selectedResultIdx >= 0 && selectedResultIdx < currentSearchResults.length) {
+            selectSearchResult(currentSearchResults[selectedResultIdx]);
+          } else if (currentSearchResults.length > 0) {
+            selectSearchResult(currentSearchResults[0]);
+          }
+        } else if (e.key === "Escape") {
+          resetSearch();
+          searchInput.blur();
+        }
+      });
+
+      // Close search results when clicking outside
+      document.addEventListener("click", (e) => {
+        if (!e.target.closest(".search-container")) {
+          searchResults.classList.add("hidden");
+        }
+      });
+
       // Autoplay Random Tour Logic
       const tourToggle = document.getElementById("tour-toggle");
       let tourInterval = null;

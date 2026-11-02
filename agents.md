@@ -126,6 +126,7 @@ Castaways are categorized and colored by broadcast decade:
 1. **Collapsible HUD Header (Left):**
    * Displays mapped count and most recent broadcast date.
    * State persisted in `localStorage` under key `did_menu_collapsed` (defaults to collapsed on mobile `<768px`, expanded on desktop).
+   * **Instant Search Bar:** Live search across castaway names and birthplaces with accent-insensitive matching, autocomplete results dropdown (with decade pill, birthplace, date), keyboard navigation (Arrow Up/Down/Enter/Escape), live marker filtering on the map, and smooth animated pan/zoom (`map.flyTo`) directly to the selected castaway.
    * **Decade Legend Filter:** Clicking any decade filters the map markers dynamically, updates the counter, and closes details if the selected guest is hidden. Clicking again resets the filter.
    * **Autoplay Random Tour:** Cycling interval (5s) that jumps to a random visible marker, centres the map, highlights the dot, and opens the sidebar.
 2. **Floating Details Sidebar (Right):**
