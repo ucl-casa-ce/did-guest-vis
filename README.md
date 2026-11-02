@@ -48,7 +48,7 @@ A self-contained, robust automation script designed to run on a recurring weekly
 
 ## Interactive Map Design & Layout Process
 
-Utilizes CartoDB Positron bright light map tiles. Castaways are color-coded by their broadcast decade using a beach-to-sea gradient:
+Utilizes OpenStreetMap free, open-source map tiles. Castaways are color-coded by their broadcast decade using a beach-to-sea gradient:
   * **1940s–1960s (Sunrise/Sand):** Sand Gold (`#FCD34D`) ➔ Warm Amber (`#F59E0B`) ➔ Orange Ochre (`#D97706`)
   * **1970s–1980s (Sunset/Terracotta):** Coral Copper (`#EA580C`) ➔ Coral Pink (`#E11D48`)
   * **1990s–2010s (Seafoam/Teal):** Sea Glass Green (`#14B8A6`) ➔ Light Teal (`#0D9488`) ➔ Deep Turquoise (`#0F766E`)
